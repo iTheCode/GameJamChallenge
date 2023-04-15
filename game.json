@@ -2590,6 +2590,32 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/On-Screen Controls/Sprites/Flat Dark/e3943e1b23ceb90f00fc5e7c0481c5147b983fdc5397fb3690e102e53ce72d4f_Top arrow button.png",
           "name": "Top arrow button.png"
         }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Left arrow button.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Left arrow button.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/On-Screen Controls/Sprites/Flat Dark/69b5c8f8989a271fbbe9d2f68763f7e820044f505b0d0b66874bd20f70935a3c_Left arrow button.png",
+          "name": "Left arrow button.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Close round button.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Close round button.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/On-Screen Controls/Sprites/Flat Light/7c1f5a7d3386effe31fde1ccb51596e177b726a8a9b0f52b7d80cd5aa24261e3_Close round button.png",
+          "name": "Close round button.png"
+        }
       }
     ],
     "resourceFolders": []
@@ -2618,7 +2644,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 2.060679135269533,
+        "zoomFactor": 1.1726229638177705,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -3306,7 +3332,7 @@
           "layer": "",
           "name": "FlatBoy",
           "persistentUuid": "a26f0efe-0fa2-4b9b-a442-27121f3e635a",
-          "width": 100,
+          "width": 102,
           "x": 255,
           "y": 193,
           "zOrder": 40,
@@ -3414,7 +3440,7 @@
           "width": 26,
           "x": 667,
           "y": 631,
-          "zOrder": 52,
+          "zOrder": -6,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -3429,7 +3455,82 @@
           "width": 33,
           "x": 242,
           "y": 496,
-          "zOrder": 53,
+          "zOrder": -7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 27,
+          "layer": "",
+          "name": "subir2",
+          "persistentUuid": "5df16682-0592-4dcb-92d0-1a34d0a44920",
+          "width": 29,
+          "x": 665,
+          "y": 500,
+          "zOrder": -5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 33,
+          "layer": "",
+          "name": "subir3",
+          "persistentUuid": "8d7e3e2c-5554-4af6-80a7-b13991ccbc96",
+          "width": 35,
+          "x": 661,
+          "y": 368,
+          "zOrder": -4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 28,
+          "layer": "",
+          "name": "izquierda",
+          "persistentUuid": "ea901708-b867-456b-98e1-bdb5945302bd",
+          "width": 32,
+          "x": 663,
+          "y": 246,
+          "zOrder": -3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 33,
+          "layer": "",
+          "name": "derecha3",
+          "persistentUuid": "4bcb951a-79b6-4d3d-9115-a7b82bdf0337",
+          "width": 36,
+          "x": 241,
+          "y": 368,
+          "zOrder": -1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 33,
+          "layer": "",
+          "name": "eliminar",
+          "persistentUuid": "0a01ee81-124f-4a75-816a-a1262d4bc022",
+          "width": 31,
+          "x": 263,
+          "y": 240,
+          "zOrder": -2,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -6003,6 +6104,211 @@
               ]
             }
           ]
+        },
+        {
+          "assetStoreId": "9c727020616afdd6ba786b8af206a90481f07db0ca175ed6a4cc5b7e01c66d06",
+          "name": "subir2",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Top arrow button.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "9c727020616afdd6ba786b8af206a90481f07db0ca175ed6a4cc5b7e01c66d06",
+          "name": "subir3",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Top arrow button.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "5b15807864fa4e31a41e1e85600b000f73802cc39dbe61e3048a0bcc3930ae0e",
+          "name": "izquierda",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Left arrow button.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "0236c9d3f392e7c67c24858c9725a423057a0586e6569a46cdb60f9ac2cf3c88",
+          "name": "derecha3",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Right arrow button.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "e30d2ad70b2bf77cb6f843fb58bb5fe8163dde8bb3ed175408836afb3b7edca8",
+          "name": "eliminar",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Close round button.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "events": [
@@ -6121,6 +6427,331 @@
                 "481",
                 "40",
                 "50"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Aristocrat2",
+                "derecha2",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarObjetTxt"
+              },
+              "parameters": [
+                "Aristocrat2",
+                "direccion",
+                "=",
+                "\"derecha2\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarObjetTxt"
+              },
+              "parameters": [
+                "Aristocrat2",
+                "direccion",
+                "=",
+                "\"derecha2\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AddForceAL"
+              },
+              "parameters": [
+                "Aristocrat2",
+                "0",
+                "150",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Aristocrat2",
+                "subir2",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarObjetTxt"
+              },
+              "parameters": [
+                "Aristocrat2",
+                "direccion",
+                "=",
+                "\"subir2\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarObjetTxt"
+              },
+              "parameters": [
+                "Aristocrat2",
+                "direccion",
+                "=",
+                "\"subir2\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "MettreAutourPos"
+              },
+              "parameters": [
+                "Aristocrat2",
+                "237",
+                "352",
+                "40",
+                "50"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Aristocrat2",
+                "derecha3",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarObjetTxt"
+              },
+              "parameters": [
+                "Aristocrat2",
+                "direccion",
+                "=",
+                "\"derecha3\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarObjetTxt"
+              },
+              "parameters": [
+                "Aristocrat2",
+                "direccion",
+                "=",
+                "\"derecha3\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AddForceAL"
+              },
+              "parameters": [
+                "Aristocrat2",
+                "0",
+                "150",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Aristocrat2",
+                "subir3",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarObjetTxt"
+              },
+              "parameters": [
+                "Aristocrat2",
+                "direccion",
+                "=",
+                "\"subir3\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarObjetTxt"
+              },
+              "parameters": [
+                "Aristocrat2",
+                "direccion",
+                "=",
+                "\"subir3\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "MettreAutourPos"
+              },
+              "parameters": [
+                "Aristocrat2",
+                "664",
+                "227",
+                "40",
+                "50"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Aristocrat2",
+                "izquierda",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarObjetTxt"
+              },
+              "parameters": [
+                "Aristocrat2",
+                "direccion",
+                "=",
+                "\"izquierda\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarObjetTxt"
+              },
+              "parameters": [
+                "Aristocrat2",
+                "direccion",
+                "=",
+                "\"izquierda\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AddForceAL"
+              },
+              "parameters": [
+                "Aristocrat2",
+                "180",
+                "150",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Aristocrat2",
+                "eliminar",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Aristocrat2",
+                ""
               ]
             }
           ]
