@@ -306,6 +306,109 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Mini Interior Bed And Bath/Wallpaper/b0cf3087c6cc1989c523805c2a405a0a920ef3be04cae1f91942c02f25cbe337_tiled_Simple Brick Wallpaper.png",
           "name": "gdevelop-asset-store"
         }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiled_Gray Background.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tiled_Gray Background.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Background/e4143984855b3f2809a2a27ebfdf1ba854f1bf5248b74cc117ed4002cbe0e5d9_tiled_Gray Background.png",
+          "name": "tiled_Gray Background.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiled_Gray Background.png2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "tiled_Gray Background.png2",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiled_Gray Background.png22.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{},\"localFilePath\":\"assets/tiled_Gray Background.png22.png\"}",
+        "name": "tiled_Gray Background.png22",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tile512.png2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{},\"localFilePath\":\"assets/tile512.png2.png\"}",
+        "name": "tile512.png2",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/967a48a99dfb809bdb9735ad0877185990527ff08b888460817c16600b24750f_9patch_Wood Background_center.png2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "967a48a99dfb809bdb9735ad0877185990527ff08b888460817c16600b24750f_9patch_Wood Background_center.png2",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/e3aa42d4d3c1c3beb07bef71bab4cadcb145988d872d67e477209b5494ac30a0_Floor_Cracks2.png2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "e3aa42d4d3c1c3beb07bef71bab4cadcb145988d872d67e477209b5494ac30a0_Floor_Cracks2.png2",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/133dcc03f2e4b0ed976c8d7263fc8750e64727003c09878a546d937252a2ac95_Door_Open.png2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "133dcc03f2e4b0ed976c8d7263fc8750e64727003c09878a546d937252a2ac95_Door_Open.png2",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/133dcc03f2e4b0ed976c8d7263fc8750e64727003c09878a546d937252a2ac95_Door_Open.png22.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "133dcc03f2e4b0ed976c8d7263fc8750e64727003c09878a546d937252a2ac95_Door_Open.png22",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiled_Gray Background.png222.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{},\"localFilePath\":\"assets/tiled_Gray Background.png222.png\"}",
+        "name": "tiled_Gray Background.png222",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiled_Gray Background.png2222.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "tiled_Gray Background.png2222",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiled_Gray Background.png22222.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{},\"localFilePath\":\"assets/tiled_Gray Background.png22222.png\"}",
+        "name": "tiled_Gray Background.png22222",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -334,7 +437,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.7876290101673771,
+        "zoomFactor": 0.5843784410740942,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -348,7 +451,7 @@
           "name": "tierra",
           "persistentUuid": "e18ce9ae-9b43-464a-b39b-10bc3f62c96d",
           "width": 1280,
-          "x": 0,
+          "x": -1,
           "y": 672,
           "zOrder": 2,
           "numberProperties": [],
@@ -604,8 +707,8 @@
           "persistentUuid": "231f2ab5-60a7-4c77-badc-52f6e7995425",
           "width": 1281,
           "x": 0,
-          "y": 0,
-          "zOrder": 1,
+          "y": 1,
+          "zOrder": -1,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -718,14 +821,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 496,
+          "height": 503,
           "layer": "",
-          "name": "NewPanelSprite8",
-          "persistentUuid": "5635d876-d5d2-4b8a-b554-38e779308456",
-          "width": 495,
-          "x": 208,
-          "y": 160,
-          "zOrder": 18,
+          "name": "GrayBackground",
+          "persistentUuid": "dc72c2f9-a522-4fb0-bdd2-cadd1e70c1e8",
+          "width": 515,
+          "x": 200,
+          "y": 154,
+          "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -781,7 +884,7 @@
           "name": "tierra",
           "rightMargin": 0,
           "tags": "",
-          "texture": "tile512.png",
+          "texture": "tile512.png2",
           "tiled": true,
           "topMargin": 0,
           "type": "PanelSpriteObject::PanelSprite",
@@ -815,7 +918,7 @@
           "name": "NewPanelSprite2",
           "rightMargin": 0,
           "tags": "",
-          "texture": "e3aa42d4d3c1c3beb07bef71bab4cadcb145988d872d67e477209b5494ac30a0_Floor_Cracks2.png",
+          "texture": "e3aa42d4d3c1c3beb07bef71bab4cadcb145988d872d67e477209b5494ac30a0_Floor_Cracks2.png2",
           "tiled": true,
           "topMargin": 0,
           "type": "PanelSpriteObject::PanelSprite",
@@ -832,7 +935,7 @@
           "name": "NewPanelSprite3",
           "rightMargin": 0,
           "tags": "",
-          "texture": "967a48a99dfb809bdb9735ad0877185990527ff08b888460817c16600b24750f_9patch_Wood Background_center.png",
+          "texture": "967a48a99dfb809bdb9735ad0877185990527ff08b888460817c16600b24750f_9patch_Wood Background_center.png2",
           "tiled": true,
           "topMargin": 0,
           "type": "PanelSpriteObject::PanelSprite",
@@ -849,7 +952,7 @@
           "name": "NewPanelSprite4",
           "rightMargin": 0,
           "tags": "",
-          "texture": "133dcc03f2e4b0ed976c8d7263fc8750e64727003c09878a546d937252a2ac95_Door_Open.png",
+          "texture": "133dcc03f2e4b0ed976c8d7263fc8750e64727003c09878a546d937252a2ac95_Door_Open.png22",
           "tiled": false,
           "topMargin": 0,
           "type": "PanelSpriteObject::PanelSprite",
@@ -1134,6 +1237,18 @@
           "variables": [],
           "effects": [],
           "behaviors": []
+        },
+        {
+          "assetStoreId": "87e6c3d645e02e5f14df66687f129bcefed631f82a8d4e2750164d2e30aa0fc9",
+          "height": 128,
+          "name": "GrayBackground",
+          "tags": "",
+          "texture": "tiled_Gray Background.png22222",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 128,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
         }
       ],
       "events": [
@@ -1182,6 +1297,17 @@
               "width": 0
             }
           ],
+          "effects": []
+        },
+        {
+          "ambientLightColorB": 7586520,
+          "ambientLightColorG": 6069792,
+          "ambientLightColorR": 8228208,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "Fondo",
+          "visibility": true,
+          "cameras": [],
           "effects": []
         }
       ],
