@@ -2512,6 +2512,84 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/5e2e3fcc57885d5e510934e621be5f8dd7a5b6425cf46ef38073e3d2c3b04048_Kenney Mini Square.ttf",
           "name": "Kenney Mini Square.ttf"
         }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Aristocrat2_Idle_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Aristocrat2_Idle_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Chierit/Lively NPC/Steampunk/97e9dd444420490eb93ffaeacdc7e579e984f4e67497dd0fe75c6f8eafd7d82b_Aristocrat2_Idle_1.png",
+          "name": "Aristocrat2_Idle_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Aristocrat2_Idle_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Aristocrat2_Idle_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Chierit/Lively NPC/Steampunk/c699830682692a41702acf9e7b3b1d048e27ebdd6c9d0c7d5f089bd058713e51_Aristocrat2_Idle_2.png",
+          "name": "Aristocrat2_Idle_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Aristocrat2_Idle_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Aristocrat2_Idle_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Chierit/Lively NPC/Steampunk/ee9f3265ace5cc2c19e4caff4552ee20d98d12f99bfa54138659fcbffb8420ce_Aristocrat2_Idle_3.png",
+          "name": "Aristocrat2_Idle_3.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Aristocrat2_Idle_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Aristocrat2_Idle_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Chierit/Lively NPC/Steampunk/78eea7efda0d781d5e3d05e876c3861cabb9902465cf63f03ad1f42e7d05b946_Aristocrat2_Idle_4.png",
+          "name": "Aristocrat2_Idle_4.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Right arrow button.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Right arrow button.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/On-Screen Controls/Sprites/Flat Dark/cb2f532a9cd3feb7cb8af6cdcb1de5ec074dc6aacf5c851dcd243c407aedd605_Right arrow button.png",
+          "name": "Right arrow button.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Top arrow button.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Top arrow button.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/On-Screen Controls/Sprites/Flat Dark/e3943e1b23ceb90f00fc5e7c0481c5147b983fdc5397fb3690e102e53ce72d4f_Top arrow button.png",
+          "name": "Top arrow button.png"
+        }
       }
     ],
     "resourceFolders": []
@@ -2540,7 +2618,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.737081631799405,
+        "zoomFactor": 2.060679135269533,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -2721,7 +2799,7 @@
           "width": 496,
           "x": 208,
           "y": 656,
-          "zOrder": 12,
+          "zOrder": 17,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -2731,7 +2809,7 @@
           "customSize": true,
           "height": 47,
           "layer": "",
-          "name": "NewPanelSprite4",
+          "name": "puerta3",
           "persistentUuid": "da6fb3a7-0574-471e-8a37-20ef6ea153d8",
           "width": 35,
           "x": 232,
@@ -2836,7 +2914,7 @@
           "customSize": true,
           "height": 47,
           "layer": "",
-          "name": "NewPanelSprite4",
+          "name": "puerta3",
           "persistentUuid": "0b0d3c21-f0ce-4132-98d0-8ceaae6bc20a",
           "width": 35,
           "x": 666,
@@ -2851,7 +2929,7 @@
           "customSize": true,
           "height": 47,
           "layer": "",
-          "name": "NewPanelSprite4",
+          "name": "puerta3",
           "persistentUuid": "7fd35427-a340-483e-a702-2b1ac7a6a50b",
           "width": 35,
           "x": 237,
@@ -2866,7 +2944,7 @@
           "customSize": true,
           "height": 47,
           "layer": "",
-          "name": "NewPanelSprite4",
+          "name": "puerta3",
           "persistentUuid": "6509db5f-6ea2-4a2f-8ced-bf476409adcf",
           "width": 35,
           "x": 663,
@@ -2881,7 +2959,7 @@
           "customSize": true,
           "height": 47,
           "layer": "",
-          "name": "NewPanelSprite4",
+          "name": "puerta3",
           "persistentUuid": "84fbe141-5c65-436a-a64b-3dc929df558b",
           "width": 35,
           "x": 663,
@@ -2896,7 +2974,7 @@
           "customSize": true,
           "height": 47,
           "layer": "",
-          "name": "NewPanelSprite4",
+          "name": "puerta3",
           "persistentUuid": "a40b35ff-4d2c-4e75-99e1-0d5d16264cba",
           "width": 35,
           "x": 237,
@@ -2911,7 +2989,7 @@
           "customSize": true,
           "height": 47,
           "layer": "",
-          "name": "NewPanelSprite4",
+          "name": "puerta3",
           "persistentUuid": "dda98276-745f-4407-953b-6efc75d220f2",
           "width": 35,
           "x": 664,
@@ -3280,6 +3358,81 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Fondo",
+          "name": "Aristocrat2",
+          "persistentUuid": "a1174155-ade9-43bf-8546-217daaf399a9",
+          "width": 0,
+          "x": 249,
+          "y": 608,
+          "zOrder": 50,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 39,
+          "layer": "",
+          "name": "Aristocrat2",
+          "persistentUuid": "98e683cd-11bf-45be-97c4-004e38ae0a9c",
+          "width": 36,
+          "x": 242,
+          "y": 617,
+          "zOrder": 51,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 26,
+          "layer": "",
+          "name": "derecha",
+          "persistentUuid": "b143ef40-5977-4d90-8dcf-1ccab240023e",
+          "width": 27,
+          "x": 236,
+          "y": 626,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 25,
+          "layer": "",
+          "name": "subir",
+          "persistentUuid": "5b6fe7a8-f4ac-4f3f-ad28-866c230f9535",
+          "width": 26,
+          "x": 667,
+          "y": 631,
+          "zOrder": 52,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 33,
+          "layer": "",
+          "name": "derecha2",
+          "persistentUuid": "bade587c-4631-4655-a813-b6f3ea3ea962",
+          "width": 33,
+          "x": 242,
+          "y": 496,
+          "zOrder": 53,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -3396,7 +3549,7 @@
           "bottomMargin": 0,
           "height": 32,
           "leftMargin": 0,
-          "name": "NewPanelSprite4",
+          "name": "puerta3",
           "rightMargin": 0,
           "tags": "",
           "texture": "133dcc03f2e4b0ed976c8d7263fc8750e64727003c09878a546d937252a2ac95_Door_Open.png22",
@@ -5635,13 +5788,342 @@
               "width": 192
             }
           }
+        },
+        {
+          "assetStoreId": "7a8bbf52d82b960e1e6cd515ee43b8b11d786356d7d1d178740790bb9ae863c4",
+          "name": "Aristocrat2",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Idle",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.25,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Aristocrat2_Idle_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Aristocrat2_Idle_2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Aristocrat2_Idle_3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Aristocrat2_Idle_4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "0236c9d3f392e7c67c24858c9725a423057a0586e6569a46cdb60f9ac2cf3c88",
+          "name": "derecha",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Right arrow button.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "9c727020616afdd6ba786b8af206a90481f07db0ca175ed6a4cc5b7e01c66d06",
+          "name": "subir",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Top arrow button.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "0236c9d3f392e7c67c24858c9725a423057a0586e6569a46cdb60f9ac2cf3c88",
+          "name": "derecha2",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Right arrow button.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "events": [
         {
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Aristocrat2",
+                "derecha",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarObjetTxt"
+              },
+              "parameters": [
+                "Aristocrat2",
+                "direccion",
+                "=",
+                "\"derecha\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarObjetTxt"
+              },
+              "parameters": [
+                "Aristocrat2",
+                "direccion",
+                "=",
+                "\"derecha\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AddForceAL"
+              },
+              "parameters": [
+                "Aristocrat2",
+                "0",
+                "150",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Aristocrat2",
+                "subir",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarObjetTxt"
+              },
+              "parameters": [
+                "Aristocrat2",
+                "direccion",
+                "=",
+                "\"subir\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarObjetTxt"
+              },
+              "parameters": [
+                "Aristocrat2",
+                "direccion",
+                "=",
+                "\"subir\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "MettreAutourPos"
+              },
+              "parameters": [
+                "Aristocrat2",
+                "237",
+                "481",
+                "40",
+                "50"
+              ]
+            }
+          ]
         }
       ],
       "layers": [
@@ -5652,7 +6134,7 @@
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
           "name": "Fondo",
-          "visibility": true,
+          "visibility": false,
           "cameras": [],
           "effects": []
         },
@@ -5685,7 +6167,7 @@
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
           "name": "Bienvenida",
-          "visibility": true,
+          "visibility": false,
           "cameras": [],
           "effects": []
         }
