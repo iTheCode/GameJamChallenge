@@ -3469,68 +3469,434 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Door_Closed.png",
+        "file": "assets/Tile 17.png",
         "kind": "image",
         "metadata": "",
-        "name": "Door_Closed.png",
+        "name": "Tile 17.png",
         "smoothed": false,
         "userAdded": false,
         "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 Dungeon Tileset/Door/969a8bbc5ec12ee51b641e4a7ac318f0312abf39ef72121da06507cc17e3f5bc_Door_Closed.png",
-          "name": "Door_Closed.png"
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Platformer Pack/Tiles/58cff4866595fe5fdd53792800c1a1443719dc423a2604cf1051a07a6be2c5bf_Tile 17.png",
+          "name": "Tile 17.png"
         }
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Door_Open2.png",
+        "file": "assets/tiled_Tile 30 tiled sprite.png",
         "kind": "image",
         "metadata": "",
-        "name": "Door_Open.png",
+        "name": "tiled_Tile 30 tiled sprite.png",
         "smoothed": false,
         "userAdded": false,
         "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 Dungeon Tileset/Door/133dcc03f2e4b0ed976c8d7263fc8750e64727003c09878a546d937252a2ac95_Door_Open.png",
-          "name": "Door_Open.png"
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Platformer Pack/Tiles/05c0e3769ed6fff507341e7a0cad20cde0ad9ca25c307c0f9f88b1e5079e46be_tiled_Tile 30 tiled sprite.png",
+          "name": "tiled_Tile 30 tiled sprite.png"
         }
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Heart.png",
+        "file": "assets/tiled_Tile 30 tiled sprite.png2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "tiled_Tile 30 tiled sprite.png2",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiled_Tile 10 tiled sprite.png",
         "kind": "image",
         "metadata": "",
-        "name": "Heart.png",
+        "name": "tiled_Tile 10 tiled sprite.png",
         "smoothed": false,
         "userAdded": false,
         "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Western FPS 2D/Item/Cards/886aa882431983dce03cd03a9270225a8bb5d1336052da2ca0bc2eac823895ba_Heart.png",
-          "name": "Heart.png"
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Platformer Pack/Tiles/d94da6ecc6d891b73c542cdbbe34093c4c5c1223a17cd267632ba53c7c6cc0b1_tiled_Tile 10 tiled sprite.png",
+          "name": "tiled_Tile 10 tiled sprite.png"
         }
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Flat Heart Empty.png",
+        "file": "assets/tiled_Tile 10 tiled sprite.png2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "tiled_Tile 10 tiled sprite.png2",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "objects.jpg",
         "kind": "image",
         "metadata": "",
-        "name": "Flat Heart Empty.png",
+        "name": "objects.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/objects.jpg2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "objects.jpg2",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/objects.jpg22.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "objects.jpg22",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "objects.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"objects.png\",\"extension\":\".png\"}",
+        "name": "objects.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/objects.jpg222.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{},\"localFilePath\":\"assets/objects.jpg222.png\"}",
+        "name": "objects.jpg222",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/objects.jpg223.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{},\"localFilePath\":\"assets/objects.jpg223.png\"}",
+        "name": "objects.jpg223",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiled_Summer Tile Water.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tiled_Summer Tile Water.png",
         "smoothed": true,
         "userAdded": false,
         "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Resource bars/c0bac0102b6467c3f428f093a162ad8aedc069b2bf3cbe65f344353c3695ecdf_Flat Heart Empty.png",
-          "name": "Flat Heart Empty.png"
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Worlds/Summer/91910f5fb077be639f7415954118355ac8dc9ad2ae61b49c04f6bcce451f7fda_tiled_Summer Tile Water.png",
+          "name": "tiled_Summer Tile Water.png"
         }
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Flat Heart Filled.png",
+        "file": "assets/tiled_Summer Tile Water.png2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "tiled_Summer Tile Water.png2",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiled_Summer Tile Water.png22.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "tiled_Summer Tile Water.png22",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiled_Summer Tile Water.png222.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "tiled_Summer Tile Water.png222",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiled_Summer Tile Water.png2222.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "tiled_Summer Tile Water.png2222",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/9patch_Wood Background_all_64.png",
         "kind": "image",
         "metadata": "",
-        "name": "Flat Heart Filled.png",
+        "name": "9patch_Wood Background_all_64.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Tile Sets/Wood Background/cde7121802cd226997240e3941fbaf9193a225e5ffff40cc849e918047959711_9patch_Wood Background_all_64.png",
+          "name": "9patch_Wood Background_all_64.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Grass foreground2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Grass foreground",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bush.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bush.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Western FPS 2D/Background Element/5c6f4a8326510e6bf792f46b3cb4282220a3c55a6fd8de7280bf407db33c0817_Bush.png",
+          "name": "Bush.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bush (3).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bush (3).png",
         "smoothed": true,
         "userAdded": false,
         "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Resource bars/4158f811cf0bb821a58f98d8cb78f2257ee590210091ab56b46703e94044ee7a_Flat Heart Filled.png",
-          "name": "Flat Heart Filled.png"
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Worlds/Summer/Objects/af3e7f8369b7b3efb6070f004aaf9915c0225cf8eaea2c12cf486a5e098312a2_Bush (3).png",
+          "name": "Bush (3).png"
         }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Barrel2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Barrel.png2",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Western FPS 2D/Background Element/af67182712ce5c23242716c5b5ee94e8c8ba03c6089f727f12edf6b6a96c82cc_Barrel.png",
+          "name": "Barrel.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Barrier.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Barrier.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Western FPS 2D/Background Element/d3d03c12d9f13f5a1d09d8277bb7b58d2c8c0188f1b5ff972a2e5654ae1611aa_Barrier.png",
+          "name": "Barrier.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Rock 5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Rock 5.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Western FPS 2D/Background Element/2344e9eb8b3bfc9fdbc79700ce828608fc40a04c8fb9f601dbe74f5ed9606844_Rock 5.png",
+          "name": "Rock 5.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Tree 2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Tree 2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Western FPS 2D/Background Element/dfa57489ad1dbb8ae7589165e7ee2bdd13997a866e9c329dc45b417dba23c17a_Tree 2.png",
+          "name": "Tree 2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Flat Boy_Idle_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Flat Boy_Idle_1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Flat Boy_Idle_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Flat Boy_Idle_2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Flat Boy_Idle_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Flat Boy_Idle_3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Flat Boy_Idle_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Flat Boy_Idle_4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Flat Boy_Idle_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Flat Boy_Idle_5.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Flat Boy_Idle_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Flat Boy_Idle_6.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Flat Boy_Idle_7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Flat Boy_Idle_7.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Flat Boy_Idle_8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Flat Boy_Idle_8.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Flat Boy_Idle_9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Flat Boy_Idle_9.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Flat Boy_Idle_10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Flat Boy_Idle_10.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Flat Boy_Idle_11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Flat Boy_Idle_11.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Flat Boy_Idle_12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Flat Boy_Idle_12.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Flat Boy_Idle_13.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Flat Boy_Idle_13.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Flat Boy_Idle_14.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Flat Boy_Idle_14.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Flat Boy_Idle_15.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Flat Boy_Idle_15.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/objects.jpg2222.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "objects.jpg2222",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/objects.jpg22222.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "objects.jpg22222",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/objects.jpg222222.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{},\"localFilePath\":\"assets/objects.jpg222222.png\"}",
+        "name": "objects.jpg222222",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/objects.jpg2222222.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "objects.jpg2222222",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -3538,12 +3904,6 @@
   "objects": [],
   "objectsGroups": [],
   "variables": [
-    {
-      "folded": true,
-      "name": "vida_bool",
-      "type": "boolean",
-      "value": false
-    },
     {
       "folded": true,
       "name": "start_game",
@@ -3561,12 +3921,6 @@
       "name": "camina",
       "type": "boolean",
       "value": false
-    },
-    {
-      "folded": true,
-      "name": "vida",
-      "type": "number",
-      "value": 3
     }
   ],
   "layouts": [
@@ -3590,7 +3944,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.6672773998330038,
+        "zoomFactor": 0.6897782140104562,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -3604,7 +3958,7 @@
           "name": "tierra",
           "persistentUuid": "e18ce9ae-9b43-464a-b39b-10bc3f62c96d",
           "width": 1280,
-          "x": -1,
+          "x": 0,
           "y": 672,
           "zOrder": 30,
           "numberProperties": [],
@@ -3778,6 +4132,21 @@
         },
         {
           "angle": 0,
+          "customSize": true,
+          "height": 47,
+          "layer": "",
+          "name": "puerta3",
+          "persistentUuid": "da6fb3a7-0574-471e-8a37-20ef6ea153d8",
+          "width": 35,
+          "x": 232,
+          "y": 610,
+          "zOrder": 23,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
           "customSize": false,
           "height": 0,
           "layer": "",
@@ -3844,8 +4213,8 @@
           "name": "Background",
           "persistentUuid": "231f2ab5-60a7-4c77-badc-52f6e7995425",
           "width": 1281,
-          "x": 0,
-          "y": 1,
+          "x": -9,
+          "y": -18,
           "zOrder": -1,
           "numberProperties": [],
           "stringProperties": [],
@@ -11443,7 +11812,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.6455105703311479,
+        "zoomFactor": 1.6337626779315013,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -13082,6 +13451,1601 @@
                     {
                       "hasCustomCollisionMask": false,
                       "image": "Check button.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ChangeColor"
+              },
+              "parameters": [
+                "fondo2",
+                "\"114;101;101\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "AnyKeyReleased"
+              },
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "GlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "narrativa",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "BBText::SetBBText"
+              },
+              "parameters": [
+                "NewBBText",
+                "=",
+                "\"[spacing=12]cambio1111[/spacing]\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetGlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "narrativa",
+                "True"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "AnyKeyPressed"
+              },
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "GlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "narrativa",
+                "True"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "BBText::SetBBText"
+              },
+              "parameters": [
+                "NewBBText",
+                "=",
+                "\"[spacing=12]cambio222[/spacing]\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetGlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "camina",
+                "True"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "FlatBoy",
+                "derecha",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "GlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "camina",
+                "True"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarObjetTxt"
+              },
+              "parameters": [
+                "FlatBoy",
+                "direccion",
+                "=",
+                "\"derecha\""
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "FlatBoy",
+                "=",
+                "2"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarObjetTxt"
+              },
+              "parameters": [
+                "FlatBoy",
+                "direccion",
+                "=",
+                "\"derecha\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AddForceAL"
+              },
+              "parameters": [
+                "FlatBoy",
+                "0",
+                "90",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "FlatBoy",
+                "termina",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"game\"",
+                ""
+              ]
+            }
+          ]
+        }
+      ],
+      "layers": [
+        {
+          "ambientLightColorB": 16633016,
+          "ambientLightColorG": 150995054,
+          "ambientLightColorR": 1869182049,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": []
+        }
+      ],
+      "behaviorsSharedData": [
+        {
+          "name": "BBText_AutoTyping",
+          "type": "AutoTyping::BBText_AutoTyping"
+        }
+      ]
+    },
+    {
+      "b": 209,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "rio",
+      "name": "rio",
+      "r": 209,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 209,
+      "uiSettings": {
+        "grid": false,
+        "gridType": "rectangular",
+        "gridWidth": 32,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snap": false,
+        "zoomFactor": 0.5117784035210212,
+        "windowMask": false
+      },
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 740,
+          "layer": "",
+          "name": "Grass",
+          "persistentUuid": "702ea4c3-9b18-486b-8c1d-97ed7a251df4",
+          "width": 1289,
+          "x": -15,
+          "y": -8,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 190,
+          "layer": "",
+          "name": "Arbol",
+          "persistentUuid": "895c61aa-d289-40ce-b6bc-dfa879832ec1",
+          "width": 152,
+          "x": -30,
+          "y": -41,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 174,
+          "layer": "",
+          "name": "Tierra",
+          "persistentUuid": "631b7095-228f-42df-a53c-3b3bbbe5617c",
+          "width": 1286,
+          "x": -6,
+          "y": 314,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 787,
+          "layer": "",
+          "name": "Rio",
+          "persistentUuid": "d8a7a48f-d9a2-4033-8ef0-855d685f7b78",
+          "width": 250,
+          "x": 237,
+          "y": -27,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 360,
+          "customSize": true,
+          "height": 180,
+          "layer": "",
+          "name": "WoodBackground",
+          "persistentUuid": "1433b30d-339b-465a-9e17-63a98432154b",
+          "width": 297,
+          "x": 217,
+          "y": 320,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 91,
+          "customSize": true,
+          "height": 34,
+          "layer": "",
+          "name": "Piedra",
+          "persistentUuid": "fbf7946a-4239-48e5-becd-f95b3605215c",
+          "width": 40,
+          "x": 508,
+          "y": 328,
+          "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 91,
+          "customSize": true,
+          "height": 34,
+          "layer": "",
+          "name": "Piedra",
+          "persistentUuid": "bf41963e-308f-4409-8c6c-ee1d9856f709",
+          "width": 40,
+          "x": 509,
+          "y": 383,
+          "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 91,
+          "customSize": true,
+          "height": 34,
+          "layer": "",
+          "name": "Piedra",
+          "persistentUuid": "3479fe2e-7ca1-402a-8209-c3f4565a3a8f",
+          "width": 40,
+          "x": 511,
+          "y": 411,
+          "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 91,
+          "customSize": true,
+          "height": 34,
+          "layer": "",
+          "name": "Piedra",
+          "persistentUuid": "b8b0588f-6475-4b4f-8c83-d01f17e146b7",
+          "width": 40,
+          "x": 489,
+          "y": 445,
+          "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 91,
+          "customSize": true,
+          "height": 34,
+          "layer": "",
+          "name": "Piedra",
+          "persistentUuid": "132d80d4-0aee-4669-a79d-d17fd6e146ef",
+          "width": 27,
+          "x": 514,
+          "y": 354,
+          "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 270,
+          "customSize": true,
+          "height": 33,
+          "layer": "",
+          "name": "Piedra",
+          "persistentUuid": "4a9587e3-ad35-421e-9abe-ee38af08856c",
+          "width": 36,
+          "x": 328,
+          "y": 395,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 90,
+          "customSize": true,
+          "height": 34,
+          "layer": "",
+          "name": "Piedra",
+          "persistentUuid": "ccda3ae7-33d5-4ea5-b259-3bbda24b6569",
+          "width": 40,
+          "x": 370,
+          "y": 374,
+          "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 270,
+          "customSize": true,
+          "height": 33,
+          "layer": "",
+          "name": "Piedra",
+          "persistentUuid": "25de0008-510b-4178-bdd8-a1029852e832",
+          "width": 36,
+          "x": 331,
+          "y": 434,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 270,
+          "customSize": true,
+          "height": 33,
+          "layer": "",
+          "name": "Piedra",
+          "persistentUuid": "b66800a4-1da8-423d-a9db-cdb1e392369d",
+          "width": 36,
+          "x": 333,
+          "y": 460,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 270,
+          "customSize": true,
+          "height": 33,
+          "layer": "",
+          "name": "Piedra",
+          "persistentUuid": "00b03426-ba85-44de-aa76-9be3bdc85f7e",
+          "width": 36,
+          "x": 330,
+          "y": 364,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 270,
+          "customSize": true,
+          "height": 33,
+          "layer": "",
+          "name": "Piedra",
+          "persistentUuid": "58eade13-1d25-40af-ae0d-ff77a3cc3eb1",
+          "width": 36,
+          "x": 329,
+          "y": 325,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 270,
+          "customSize": true,
+          "height": 33,
+          "layer": "",
+          "name": "Piedra",
+          "persistentUuid": "da2d47b4-5160-43d7-995d-4802d27596ba",
+          "width": 36,
+          "x": 332,
+          "y": 351,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 270,
+          "customSize": true,
+          "height": 33,
+          "layer": "",
+          "name": "Piedra",
+          "persistentUuid": "195fa2cd-01c0-4a61-89bb-1a40abfafa5f",
+          "width": 36,
+          "x": 333,
+          "y": 352,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 64,
+          "layer": "Background",
+          "name": "Bush",
+          "persistentUuid": "a61a6545-57ee-4d7d-85c4-4a5c31226ba7",
+          "width": 78,
+          "x": 925,
+          "y": 672,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 190,
+          "layer": "",
+          "name": "Arbol",
+          "persistentUuid": "8dabddfb-e27d-4a32-900d-b0c310aaba7c",
+          "width": 152,
+          "x": 587,
+          "y": -40,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 190,
+          "layer": "",
+          "name": "Arbol",
+          "persistentUuid": "4c48e689-24bd-42a3-aa0b-a1eacab9c941",
+          "width": 152,
+          "x": 822,
+          "y": 6,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 190,
+          "layer": "",
+          "name": "Arbol",
+          "persistentUuid": "08d0592a-763c-4c3d-a727-535893ebdf44",
+          "width": 152,
+          "x": 30,
+          "y": 523,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Background",
+          "name": "Rio",
+          "persistentUuid": "2dca359d-f151-414a-9530-c69d38787d2a",
+          "width": 0,
+          "x": 270,
+          "y": 108,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Background",
+          "name": "Rio",
+          "persistentUuid": "1d9bc1ad-f518-47d2-8b9d-7c6ab4f65cae",
+          "width": 0,
+          "x": 171,
+          "y": 183,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Background",
+          "name": "Rio",
+          "persistentUuid": "cbfbc11e-1799-4100-9a13-dd43c5c11755",
+          "width": 0,
+          "x": 175,
+          "y": 209,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Background",
+          "name": "Rio",
+          "persistentUuid": "70212003-dffc-40f6-a9e6-6ddfab25dc72",
+          "width": 0,
+          "x": 210,
+          "y": 219,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 57,
+          "layer": "",
+          "name": "Barrel",
+          "persistentUuid": "4724f0f6-f559-4acc-b87f-44fab436735f",
+          "width": 49,
+          "x": 195,
+          "y": 120,
+          "zOrder": 15,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 40,
+          "layer": "",
+          "name": "Barrier",
+          "persistentUuid": "b9795d36-ea32-442d-bc33-84d52717f626",
+          "width": 63,
+          "x": 119,
+          "y": 38,
+          "zOrder": 16,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 33,
+          "layer": "",
+          "name": "Rock5",
+          "persistentUuid": "955a3fee-9377-42ff-989b-ffb7d8df04bf",
+          "width": 50,
+          "x": 193,
+          "y": 288,
+          "zOrder": 17,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 33,
+          "layer": "",
+          "name": "Rock5",
+          "persistentUuid": "674c67e3-3eb7-4df8-a432-e00b5d3948c4",
+          "width": 50,
+          "x": 186,
+          "y": 487,
+          "zOrder": 17,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 33,
+          "layer": "",
+          "name": "Rock5",
+          "persistentUuid": "f506bdbe-7ae1-411d-9c17-f35a7d3fe473",
+          "width": 50,
+          "x": 482,
+          "y": 289,
+          "zOrder": 17,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 33,
+          "layer": "",
+          "name": "Rock5",
+          "persistentUuid": "37ef273c-52da-4fc0-a68f-c108c2431dce",
+          "width": 50,
+          "x": 490,
+          "y": 477,
+          "zOrder": 17,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 57,
+          "layer": "",
+          "name": "Barrel",
+          "persistentUuid": "084f7904-5e42-45cd-b9fa-989bc2993713",
+          "width": 49,
+          "x": 195,
+          "y": 89,
+          "zOrder": 15,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 57,
+          "layer": "",
+          "name": "Barrel",
+          "persistentUuid": "75acbb2b-fd73-4fca-b4e5-1d9c8d194b1c",
+          "width": 49,
+          "x": 195,
+          "y": -6,
+          "zOrder": 15,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 57,
+          "layer": "",
+          "name": "Barrel",
+          "persistentUuid": "81f847c3-434c-44e6-bd23-68c9a05a9d0f",
+          "width": 49,
+          "x": 194,
+          "y": 23,
+          "zOrder": 15,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 57,
+          "layer": "",
+          "name": "Barrel",
+          "persistentUuid": "d251c271-7bb5-4f54-ba14-d91cee0d8bf5",
+          "width": 49,
+          "x": 196,
+          "y": 39,
+          "zOrder": 15,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 56,
+          "layer": "",
+          "name": "Barrel",
+          "persistentUuid": "4c62545c-46be-4c4e-a96d-855d0839efe0",
+          "width": 49,
+          "x": 194,
+          "y": 69,
+          "zOrder": 15,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 269,
+          "customSize": true,
+          "height": 34,
+          "layer": "",
+          "name": "Piedra",
+          "persistentUuid": "b2cdc6e4-78fa-4b4f-a484-a6bb065a606b",
+          "width": 40,
+          "x": 179,
+          "y": 398,
+          "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 269,
+          "customSize": true,
+          "height": 34,
+          "layer": "",
+          "name": "Piedra",
+          "persistentUuid": "03c588a1-634a-4bc6-88ec-ef874dcc7f44",
+          "width": 27,
+          "x": 185,
+          "y": 426,
+          "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 269,
+          "customSize": true,
+          "height": 34,
+          "layer": "",
+          "name": "Piedra",
+          "persistentUuid": "95e440aa-ef9b-4655-b9ed-80bc4c7fa70e",
+          "width": 40,
+          "x": 182,
+          "y": 454,
+          "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 269,
+          "customSize": true,
+          "height": 34,
+          "layer": "",
+          "name": "Piedra",
+          "persistentUuid": "10293988-ce71-4d94-bd12-ec4fafadfd64",
+          "width": 40,
+          "x": 182,
+          "y": 369,
+          "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 269,
+          "customSize": true,
+          "height": 34,
+          "layer": "",
+          "name": "Piedra",
+          "persistentUuid": "7f9050fd-3fad-4356-8544-6bec6e0c6a28",
+          "width": 40,
+          "x": 180,
+          "y": 323,
+          "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 91,
+          "customSize": true,
+          "height": 34,
+          "layer": "",
+          "name": "Piedra",
+          "persistentUuid": "dc6325b0-b088-48a3-89f2-ff1571e4e3ba",
+          "width": 40,
+          "x": 511,
+          "y": 449,
+          "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 190,
+          "layer": "",
+          "name": "Arbol",
+          "persistentUuid": "22d2f71b-d349-437a-a617-fc0a0c94ae4e",
+          "width": 152,
+          "x": 1168,
+          "y": 557,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 190,
+          "layer": "",
+          "name": "Arbol",
+          "persistentUuid": "f6ce4262-99a8-4c40-96f2-88dca703d44d",
+          "width": 152,
+          "x": 1103,
+          "y": -50,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 190,
+          "layer": "",
+          "name": "Arbol",
+          "persistentUuid": "53b083e8-9116-40a2-b0e4-379dccbee906",
+          "width": 152,
+          "x": 534,
+          "y": 543,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 190,
+          "layer": "",
+          "name": "Arbol",
+          "persistentUuid": "d1febc6e-b9e3-4b73-ace4-8cc43bbdcdec",
+          "width": 152,
+          "x": 833,
+          "y": 605,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "NewSprite",
+          "persistentUuid": "b3fd40a6-e9ff-406c-8e36-eea44a8bf076",
+          "width": 0,
+          "x": 54,
+          "y": 321,
+          "zOrder": 18,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "assetStoreId": "",
+          "height": 32,
+          "name": "Grass",
+          "tags": "",
+          "texture": "objects.jpg2222222",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "assetStoreId": "",
+          "height": 32,
+          "name": "Tierra",
+          "tags": "",
+          "texture": "objects.jpg223",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "assetStoreId": "",
+          "name": "Arbol",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "objects",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "objects.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "d5ce0de20ffbc1295de068b6184ae94e1a5e7a23ef841e321deda496d2a2aa78",
+          "name": "Piedra",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Grass foreground",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Grass foreground",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "3f294355a854e85aeb0e08c0e0ab9ad836c01468f7623e583beff5fe0c173a44",
+          "height": 128,
+          "name": "Rio",
+          "tags": "",
+          "texture": "tiled_Summer Tile Water.png2222",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 128,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "assetStoreId": "08d9802965c3beec17416c0e0ff3f459710d2e2bf155c0e0ece4459d4efa98ec",
+          "bottomMargin": 64,
+          "height": 192,
+          "leftMargin": 64,
+          "name": "WoodBackground",
+          "rightMargin": 64,
+          "tags": "",
+          "texture": "9patch_Wood Background_all_64.png",
+          "tiled": true,
+          "topMargin": 64,
+          "type": "PanelSpriteObject::PanelSprite",
+          "width": 192,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "assetStoreId": "d5c976ea0e9614d55b06f5322c2fcf29fb18ffda7e157e83b3d258e59d4baba8",
+          "name": "Bush",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Bush.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "fa9c225a41848d3138c70f9ebf236a768e417adac86868d4cd810a32dafceaf5",
+          "name": "Barrel",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Barrel.png2",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "2c2d57a69701e69d419f00179b82a3bd0b546bae52fc704ec43c5049a5c83fb9",
+          "name": "Barrier",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Barrier.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "d35474e98652b19cb659ce5fb5cbafa39af0f306caa34e970463f5ef04344fad",
+          "name": "Rock5",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Rock 5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "NewSprite",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "acceleration": 400,
+              "allowDiagonals": true,
+              "angleOffset": 0,
+              "angularMaxSpeed": 180,
+              "customIsometryAngle": 30,
+              "deceleration": 800,
+              "ignoreDefaultControls": false,
+              "maxSpeed": 200,
+              "movementAngleOffset": 0,
+              "name": "TopDownMovement",
+              "rotateObject": true,
+              "type": "TopDownMovementBehavior::TopDownMovementBehavior",
+              "viewpoint": "TopDown"
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.0667,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\Flat Boy_Idle_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\Flat Boy_Idle_2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\Flat Boy_Idle_3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\Flat Boy_Idle_4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\Flat Boy_Idle_5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\Flat Boy_Idle_6.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\Flat Boy_Idle_7.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\Flat Boy_Idle_8.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\Flat Boy_Idle_9.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\Flat Boy_Idle_10.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\Flat Boy_Idle_11.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\Flat Boy_Idle_12.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\Flat Boy_Idle_13.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\Flat Boy_Idle_14.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\Flat Boy_Idle_15.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -16057,8 +18021,16 @@
           "sharedPropertyDescriptors": []
         }
       ],
-      "eventsBasedObjects": []
-    },
+      "behaviorsSharedData": [
+        {
+          "name": "TopDownMovement",
+          "type": "TopDownMovementBehavior::TopDownMovementBehavior"
+        }
+      ]
+    }
+  ],
+  "externalEvents": [],
+  "eventsFunctionsExtensions": [
     {
       "author": "westboy, daliyoucefmedakram@gmail.com, @bouh",
       "category": "User interface",
