@@ -3900,55 +3900,12 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Heart2.png",
+        "file": "assets/objects.jpg222222223.png",
         "kind": "image",
-        "metadata": "",
-        "name": "Heart.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Western FPS 2D/Item/Cards/886aa882431983dce03cd03a9270225a8bb5d1336052da2ca0bc2eac823895ba_Heart.png",
-          "name": "Heart.png"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Generic ball (1).png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Generic ball (1).png",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "objects.jpg22222222",
         "smoothed": true,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Sports pack (380 assets)/PNG/Equipment/8d122a8c9cda0e364528b8a5c0005e98e5f1f65acc6ca2e9acc539d48203870c_Generic ball (1).png",
-          "name": "Generic ball (1).png"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Fire round button.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Fire round button.png",
-        "smoothed": true,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/On-Screen Controls/Sprites/Flat Dark/10332be17c5da07b263300c70d68d07ae01df8822f0ea5bc093da8d0c22c5635_Fire round button.png",
-          "name": "Fire round button.png"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Cross.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Cross.png",
-        "smoothed": true,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Console Inputs/PS4/2a14256e97437699483fd85357e02d8148aa3af1605be5c0729b9e24024e6856_Cross.png",
-          "name": "Cross.png"
-        }
+        "userAdded": true
       },
       {
         "alwaysLoaded": false,
@@ -4219,6 +4176,60 @@
         "name": "objects.jpg2222222224",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Broken_tree3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Broken_tree3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Broken_tree4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Broken_tree4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Palm_tree2_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Palm_tree2_1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Palm_tree1_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Palm_tree1_3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Rock7_water_shadow2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Rock7_water_shadow2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "885.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "885.jpg",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -4243,12 +4254,6 @@
       "name": "camina",
       "type": "boolean",
       "value": false
-    },
-    {
-      "folded": true,
-      "name": "coin",
-      "type": "number",
-      "value": 100
     }
   ],
   "layouts": [
@@ -11671,11 +11676,6 @@
               ]
             }
           ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
         }
       ],
       "layers": [
@@ -14031,8 +14031,8 @@
     {
       "b": 209,
       "disableInputWhenNotFocused": true,
-      "mangledName": "selva",
-      "name": "selva",
+      "mangledName": "selva1",
+      "name": "selva1",
       "r": 209,
       "standardSortMethod": true,
       "stopSoundsOnStartup": true,
@@ -14041,8 +14041,8 @@
       "uiSettings": {
         "grid": false,
         "gridType": "rectangular",
-        "gridWidth": 16,
-        "gridHeight": 16,
+        "gridWidth": 32,
+        "gridHeight": 32,
         "gridOffsetX": 0,
         "gridOffsetY": 0,
         "gridColor": 10401023,
@@ -14057,12 +14057,12 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 733,
-          "layer": "Background",
+          "height": 740,
+          "layer": "",
           "name": "Grass",
           "persistentUuid": "702ea4c3-9b18-486b-8c1d-97ed7a251df4",
-          "width": 1280,
-          "x": -2,
+          "width": 1289,
+          "x": -15,
           "y": -8,
           "zOrder": 1,
           "numberProperties": [],
@@ -14094,7 +14094,7 @@
           "width": 297,
           "x": 217,
           "y": 320,
-          "zOrder": 20,
+          "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -14342,6 +14342,51 @@
         {
           "angle": 0,
           "customSize": true,
+          "height": 190,
+          "layer": "",
+          "name": "Arbol",
+          "persistentUuid": "08d0592a-763c-4c3d-a727-535893ebdf44",
+          "width": 152,
+          "x": 30,
+          "y": 523,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 57,
+          "layer": "",
+          "name": "Barrel",
+          "persistentUuid": "4724f0f6-f559-4acc-b87f-44fab436735f",
+          "width": 49,
+          "x": 195,
+          "y": 120,
+          "zOrder": 15,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 40,
+          "layer": "",
+          "name": "Barrier",
+          "persistentUuid": "b9795d36-ea32-442d-bc33-84d52717f626",
+          "width": 63,
+          "x": 119,
+          "y": 38,
+          "zOrder": 16,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
           "height": 33,
           "layer": "",
           "name": "Rock5",
@@ -14395,6 +14440,81 @@
           "x": 490,
           "y": 477,
           "zOrder": 17,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 57,
+          "layer": "",
+          "name": "Barrel",
+          "persistentUuid": "084f7904-5e42-45cd-b9fa-989bc2993713",
+          "width": 49,
+          "x": 195,
+          "y": 89,
+          "zOrder": 15,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 57,
+          "layer": "",
+          "name": "Barrel",
+          "persistentUuid": "75acbb2b-fd73-4fca-b4e5-1d9c8d194b1c",
+          "width": 49,
+          "x": 195,
+          "y": -6,
+          "zOrder": 15,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 57,
+          "layer": "",
+          "name": "Barrel",
+          "persistentUuid": "81f847c3-434c-44e6-bd23-68c9a05a9d0f",
+          "width": 49,
+          "x": 194,
+          "y": 23,
+          "zOrder": 15,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 57,
+          "layer": "",
+          "name": "Barrel",
+          "persistentUuid": "d251c271-7bb5-4f54-ba14-d91cee0d8bf5",
+          "width": 49,
+          "x": 196,
+          "y": 39,
+          "zOrder": 15,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 56,
+          "layer": "",
+          "name": "Barrel",
+          "persistentUuid": "4c62545c-46be-4c4e-a96d-855d0839efe0",
+          "width": 49,
+          "x": 194,
+          "y": 69,
+          "zOrder": 15,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -14560,171 +14680,6 @@
           "x": 237,
           "y": -6,
           "zOrder": 8,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 739,
-          "layer": "",
-          "name": "Rio",
-          "persistentUuid": "873e139d-04a0-4883-9b9f-1f56e43fe600",
-          "width": 248,
-          "x": 228,
-          "y": -6,
-          "zOrder": 19,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 264,
-          "layer": "",
-          "name": "BorderedHud",
-          "persistentUuid": "85565c7e-6290-4df0-8097-6e8d5f14427d",
-          "width": 200,
-          "x": 13,
-          "y": 14,
-          "zOrder": 21,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 32,
-          "layer": "",
-          "name": "Heart",
-          "persistentUuid": "54c745c8-101d-4c11-b7ae-b57f2d2c514c",
-          "width": 33,
-          "x": 48,
-          "y": 592,
-          "zOrder": 22,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 185,
-          "layer": "",
-          "name": "BorderedHud",
-          "persistentUuid": "0a524c98-25a5-4843-9604-0c84859029af",
-          "width": 200,
-          "x": 13,
-          "y": 524,
-          "zOrder": 21,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 32,
-          "layer": "",
-          "name": "Heart2",
-          "persistentUuid": "7ffcb083-46b9-4a22-9159-5df02847ca1f",
-          "width": 32,
-          "x": 96,
-          "y": 592,
-          "zOrder": 23,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 32,
-          "layer": "",
-          "name": "Heart3",
-          "persistentUuid": "c3f8fe5c-9232-4e3f-ad38-810b73c156fd",
-          "width": 32,
-          "x": 144,
-          "y": 592,
-          "zOrder": 24,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 32,
-          "layer": "",
-          "name": "NewBBText",
-          "persistentUuid": "4c5b3042-709f-47fc-a7c6-e025949a7996",
-          "width": 98,
-          "x": 48,
-          "y": 544,
-          "zOrder": 25,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 71,
-          "layer": "",
-          "name": "Penguin",
-          "persistentUuid": "f39b8ec2-0bff-41c8-80c9-b934b0734e60",
-          "width": 57,
-          "x": 580,
-          "y": 241,
-          "zOrder": 26,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 44,
-          "layer": "",
-          "name": "FireRoundButton",
-          "persistentUuid": "fb70014e-ac4c-4ba3-8109-f6f1b760b09e",
-          "width": 72,
-          "x": 1192,
-          "y": 362,
-          "zOrder": 27,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "izquierda",
-          "persistentUuid": "9af6f01d-dff7-43de-82a0-5e8ffaf6b624",
-          "width": 0,
-          "x": 1137,
-          "y": 354,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "Background",
-          "name": "eliminar",
-          "persistentUuid": "7eff2a59-299c-4d2b-aff4-77a18c6f7611",
-          "width": 0,
-          "x": 54,
-          "y": 356,
-          "zOrder": 31,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -15043,1714 +14998,9 @@
               ]
             }
           ]
-        },
-        {
-          "assetStoreId": "",
-          "name": "FlatBoy",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [
-            {
-              "name": "TopDownMovement",
-              "type": "TopDownMovementBehavior::TopDownMovementBehavior",
-              "acceleration": 400,
-              "allowDiagonals": true,
-              "angleOffset": 0,
-              "angularMaxSpeed": 180,
-              "customIsometryAngle": 30,
-              "deceleration": 800,
-              "ignoreDefaultControls": false,
-              "maxSpeed": 200,
-              "movementAngleOffset": 0,
-              "rotateObject": true,
-              "viewpoint": "TopDown"
-            }
-          ],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": true,
-                  "timeBetweenFrames": 0.0667,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "assets\\Flat Boy_Idle_1.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "assets\\Flat Boy_Idle_2.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "assets\\Flat Boy_Idle_3.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "assets\\Flat Boy_Idle_4.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "assets\\Flat Boy_Idle_5.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "assets\\Flat Boy_Idle_6.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "assets\\Flat Boy_Idle_7.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "assets\\Flat Boy_Idle_8.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "assets\\Flat Boy_Idle_9.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "assets\\Flat Boy_Idle_10.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "assets\\Flat Boy_Idle_11.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "assets\\Flat Boy_Idle_12.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "assets\\Flat Boy_Idle_13.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "assets\\Flat Boy_Idle_14.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "assets\\Flat Boy_Idle_15.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "assetStoreId": "afbeb7d1b67ec8b51b3370ddfd8c4aa1bd9b925ee58ead50767f44e2e444d7ba",
-          "bottomMargin": 32,
-          "height": 96,
-          "leftMargin": 32,
-          "name": "BorderedHud",
-          "rightMargin": 32,
-          "tags": "",
-          "texture": "9patch_Bordered Hud_all_32.png",
-          "tiled": true,
-          "topMargin": 32,
-          "type": "PanelSpriteObject::PanelSprite",
-          "width": 96,
-          "variables": [],
-          "effects": [],
-          "behaviors": []
-        },
-        {
-          "assetStoreId": "c191f00ad12c64c4512408c4954a6be70dc61ccc8da3bdf05387b2e79eeed741",
-          "name": "Heart",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": true,
-                  "timeBetweenFrames": 0.025,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Heart.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "assetStoreId": "c191f00ad12c64c4512408c4954a6be70dc61ccc8da3bdf05387b2e79eeed741",
-          "name": "Heart2",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": true,
-                  "timeBetweenFrames": 0.025,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Heart.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "assetStoreId": "c191f00ad12c64c4512408c4954a6be70dc61ccc8da3bdf05387b2e79eeed741",
-          "name": "Heart3",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": true,
-                  "timeBetweenFrames": 0.025,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Heart.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "assetStoreId": "",
-          "name": "NewBBText",
-          "tags": "",
-          "type": "BBText::BBText",
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "content": {
-            "text": "[spacing=12]AWKI[/spacing]\n",
-            "opacity": 255,
-            "fontSize": 20,
-            "visible": true,
-            "color": "0;0;0",
-            "fontFamily": "Arial",
-            "align": "left",
-            "wordWrap": true
-          }
-        },
-        {
-          "assetStoreId": "",
-          "bold": true,
-          "italic": true,
-          "name": "Coin",
-          "smoothed": true,
-          "tags": "",
-          "type": "TextObject::Text",
-          "underlined": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "string": "100",
-          "font": "",
-          "textAlignment": "left",
-          "characterSize": 20,
-          "color": {
-            "b": 0,
-            "g": 0,
-            "r": 0
-          }
-        },
-        {
-          "assetStoreId": "7cb3c7d392847d6fc12886b9d9a8e11d2995cbce59854efadc3b957ed67cb61f",
-          "name": "Penguin",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "Idle",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": true,
-                  "timeBetweenFrames": 0.2,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Penguin_Idle_1.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Penguin_Idle_2.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Penguin_Idle_3.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Penguin_Idle_4.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Penguin_Idle_5.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "Jump",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": true,
-                  "timeBetweenFrames": 0.025,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Penguin_Jump.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "Hurt",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": true,
-                  "timeBetweenFrames": 0.025,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Penguin_Hurt.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "Belly Sliding",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.3333,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Penguin_Belly Sliding_1.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Penguin_Belly Sliding_2.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Penguin_Belly Sliding_3.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "Blink",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": true,
-                  "timeBetweenFrames": 0.025,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Penguin_Blink.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "Ducking",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": true,
-                  "timeBetweenFrames": 0.025,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Penguin_Ducking.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "Falling",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": true,
-                  "timeBetweenFrames": 0.025,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Penguin_Falling.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "Looking Off",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": true,
-                  "timeBetweenFrames": 0.025,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Penguin_Looking Off.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "Looking Up",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.5,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Penguin_Looking Up_1.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Penguin_Looking Up_2.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "Lying On Ground",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": true,
-                  "timeBetweenFrames": 0.025,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Penguin_Lying On Ground.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "Sitting",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": true,
-                  "timeBetweenFrames": 0.5,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Penguin_Sitting_1.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Penguin_Sitting_2.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "Standing",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": true,
-                  "timeBetweenFrames": 0.025,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Penguin_Standing.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "Surprised",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": true,
-                  "timeBetweenFrames": 0.025,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Penguin_Surprised.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "Swimming",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": true,
-                  "timeBetweenFrames": 0.25,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Penguin_Swimming_1.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Penguin_Swimming_2.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Penguin_Swimming_3.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Penguin_Swimming_4.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "Victory Dance",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.2,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Penguin_Victory Dance_1.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Penguin_Victory Dance_2.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Penguin_Victory Dance_3.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Penguin_Victory Dance_4.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Penguin_Victory Dance_5.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "Waddling",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": true,
-                  "timeBetweenFrames": 0.1667,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Penguin_Waddling_1.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Penguin_Waddling_2.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Penguin_Waddling_3.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Penguin_Waddling_4.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Penguin_Waddling_5.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Penguin_Waddling_6.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "assetStoreId": "b566c4946296cbfd3dd9fda66484059c0db2f4a54a721be5e315b071b3b1abd1",
-          "name": "GenericBall1",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": true,
-                  "timeBetweenFrames": 0.025,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Generic ball (1).png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "assetStoreId": "7a8bbf52d82b960e1e6cd515ee43b8b11d786356d7d1d178740790bb9ae863c4",
-          "name": "Aristocrat2",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [
-            {
-              "name": "ObjectSpawner",
-              "type": "ObjectSpawner::ObjectSpawner",
-              "SpawnPeriod": 1,
-              "OffsetX": 0,
-              "OffsetY": 0,
-              "JustSpawnedAnObject": false,
-              "MaxQuantityReached": false,
-              "MaxQuantity": 0
-            }
-          ],
-          "animations": [
-            {
-              "name": "Idle",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": true,
-                  "timeBetweenFrames": 0.25,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Aristocrat2_Idle_1.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Aristocrat2_Idle_2.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Aristocrat2_Idle_3.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Aristocrat2_Idle_4.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "assetStoreId": "11521f9e3de9c1bbc2ce041a94e79b1e6c0f0415e936ec2227c12031660c1824",
-          "name": "FireRoundButton",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [
-            {
-              "name": "ObjectSpawner",
-              "type": "ObjectSpawner::ObjectSpawner",
-              "SpawnPeriod": 4,
-              "OffsetX": 15,
-              "OffsetY": 15,
-              "JustSpawnedAnObject": false,
-              "MaxQuantityReached": false,
-              "MaxQuantity": 5
-            }
-          ],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": true,
-                  "timeBetweenFrames": 0.025,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Fire round button.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "assetStoreId": "11521f9e3de9c1bbc2ce041a94e79b1e6c0f0415e936ec2227c12031660c1824",
-          "name": "izquierda",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [
-            {
-              "name": "ObjectSpawner",
-              "type": "ObjectSpawner::ObjectSpawner",
-              "SpawnPeriod": 5,
-              "OffsetX": 0,
-              "OffsetY": 0,
-              "JustSpawnedAnObject": false,
-              "MaxQuantityReached": false,
-              "MaxQuantity": 5
-            }
-          ],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": true,
-                  "timeBetweenFrames": 0.025,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Fire round button.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "assetStoreId": "b722f464e108a0caad5e94648cfcd7d2dbb7d199cf7f2adf66f22b167579378b",
-          "name": "eliminar",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": true,
-                  "timeBetweenFrames": 0.025,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Cross.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
         }
       ],
       "events": [
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [
-            {
-              "type": {
-                "value": "ObjectSpawner::ObjectSpawner::SpawnObject"
-              },
-              "parameters": [
-                "FireRoundButton",
-                "ObjectSpawner",
-                "Aristocrat2",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "Aristocrat2",
-                "izquierda",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "ModVarObjetTxt"
-              },
-              "parameters": [
-                "Aristocrat2",
-                "direccion",
-                "=",
-                "\"izquierda\""
-              ]
-            },
-            {
-              "type": {
-                "value": "ChangeHeight"
-              },
-              "parameters": [
-                "Aristocrat2",
-                "=",
-                "65"
-              ]
-            },
-            {
-              "type": {
-                "value": "ChangeWidth"
-              },
-              "parameters": [
-                "Aristocrat2",
-                "=",
-                "60"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "VarObjetTxt"
-              },
-              "parameters": [
-                "Aristocrat2",
-                "direccion",
-                "=",
-                "\"izquierda\""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "AddForceAL"
-              },
-              "parameters": [
-                "Aristocrat2",
-                "180",
-                "90",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "Aristocrat2",
-                "eliminar",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Delete"
-              },
-              "parameters": [
-                "Aristocrat2",
-                ""
-              ]
-            }
-          ]
-        },
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
@@ -16766,11 +15016,11 @@
           "actions": [
             {
               "type": {
-                "value": "FlipX"
+                "value": "ChangeColor"
               },
               "parameters": [
-                "Penguin",
-                "yes"
+                "fondo2",
+                "\"114;101;101\""
               ]
             }
           ]
@@ -16780,23 +15030,18 @@
           "conditions": [
             {
               "type": {
-                "value": "VarScene"
+                "value": "AnyKeyReleased"
               },
               "parameters": [
-                "Dano",
-                "=",
-                "0"
+                ""
               ]
             },
             {
               "type": {
-                "value": "CollisionNP"
+                "value": "GlobalVariableAsBoolean"
               },
               "parameters": [
-                "FlatBoy",
-                "Aristocrat2",
-                "",
-                "",
+                "narrativa",
                 ""
               ]
             }
@@ -16804,22 +15049,21 @@
           "actions": [
             {
               "type": {
-                "value": "ModVarScene"
+                "value": "BBText::SetBBText"
               },
               "parameters": [
-                "Vida",
-                "+",
-                "1"
+                "NewBBText",
+                "=",
+                "\"[spacing=12]cambio1111[/spacing]\""
               ]
             },
             {
               "type": {
-                "value": "ModVarScene"
+                "value": "SetGlobalVariableAsBoolean"
               },
               "parameters": [
-                "Dano",
-                "=",
-                "1"
+                "narrativa",
+                "True"
               ]
             }
           ]
@@ -16829,24 +15073,40 @@
           "conditions": [
             {
               "type": {
-                "value": "VarScene"
+                "value": "AnyKeyPressed"
               },
               "parameters": [
-                "Dano",
-                "=",
-                "1"
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "GlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "narrativa",
+                "True"
               ]
             }
           ],
           "actions": [
             {
               "type": {
-                "value": "Opacity"
+                "value": "BBText::SetBBText"
               },
               "parameters": [
-                "FlatBoy",
+                "NewBBText",
                 "=",
-                "150"
+                "\"[spacing=12]cambio222[/spacing]\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetGlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "camina",
+                "True"
               ]
             }
           ]
@@ -16856,87 +15116,75 @@
           "conditions": [
             {
               "type": {
-                "inverted": true,
                 "value": "CollisionNP"
               },
               "parameters": [
                 "FlatBoy",
-                "Aristocrat2",
+                "derecha",
                 "",
                 "",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "GlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "camina",
+                "True"
+              ]
             }
           ],
           "actions": [
             {
               "type": {
-                "value": "ModVarScene"
+                "value": "ModVarObjetTxt"
               },
               "parameters": [
-                "Dano",
+                "FlatBoy",
+                "direccion",
                 "=",
-                "0"
+                "\"derecha\""
               ]
             },
             {
               "type": {
-                "value": "Opacity"
+                "value": "ChangeAnimation"
               },
               "parameters": [
                 "FlatBoy",
-                "=",
-                "300"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "VarScene"
-              },
-              "parameters": [
-                "Vida",
-                "=",
-                "1"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Cache"
-              },
-              "parameters": [
-                "Heart3"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "VarScene"
-              },
-              "parameters": [
-                "Vida",
                 "=",
                 "2"
               ]
             }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarObjetTxt"
+              },
+              "parameters": [
+                "FlatBoy",
+                "direccion",
+                "=",
+                "\"derecha\""
+              ]
+            }
           ],
           "actions": [
             {
               "type": {
-                "value": "Cache"
+                "value": "AddForceAL"
               },
               "parameters": [
-                "Heart2"
+                "FlatBoy",
+                "0",
+                "90",
+                ""
               ]
             }
           ]
@@ -16946,12 +15194,14 @@
           "conditions": [
             {
               "type": {
-                "value": "VarScene"
+                "value": "CollisionNP"
               },
               "parameters": [
-                "Vida",
-                "=",
-                "3"
+                "FlatBoy",
+                "termina",
+                "",
+                "",
+                ""
               ]
             }
           ],
@@ -16962,7 +15212,7 @@
               },
               "parameters": [
                 "",
-                "\"menu\"",
+                "\"game\"",
                 ""
               ]
             }
@@ -16970,17 +15220,6 @@
         }
       ],
       "layers": [
-        {
-          "ambientLightColorB": 150995058,
-          "ambientLightColorG": 6069792,
-          "ambientLightColorR": 13059184,
-          "followBaseLayerCamera": false,
-          "isLightingLayer": false,
-          "name": "Background",
-          "visibility": true,
-          "cameras": [],
-          "effects": []
-        },
         {
           "ambientLightColorB": 16633016,
           "ambientLightColorG": 150995054,
@@ -17009,8 +15248,8 @@
     {
       "b": 209,
       "disableInputWhenNotFocused": true,
-      "mangledName": "sierra",
-      "name": "sierra",
+      "mangledName": "selva",
+      "name": "selva",
       "r": 209,
       "standardSortMethod": true,
       "stopSoundsOnStartup": true,
@@ -17050,21 +15289,6 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 190,
-          "layer": "",
-          "name": "Arbol",
-          "persistentUuid": "895c61aa-d289-40ce-b6bc-dfa879832ec1",
-          "width": 152,
-          "x": -30,
-          "y": -41,
-          "zOrder": 2,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
           "height": 174,
           "layer": "",
           "name": "Tierra",
@@ -17085,8 +15309,8 @@
           "name": "Puente",
           "persistentUuid": "1433b30d-339b-465a-9e17-63a98432154b",
           "width": 297,
-          "x": 217,
-          "y": 320,
+          "x": 138,
+          "y": -268,
           "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
@@ -17308,40 +15532,10 @@
           "height": 190,
           "layer": "",
           "name": "Arbol",
-          "persistentUuid": "8dabddfb-e27d-4a32-900d-b0c310aaba7c",
-          "width": 152,
-          "x": 587,
-          "y": -40,
-          "zOrder": 2,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 190,
-          "layer": "",
-          "name": "Arbol",
           "persistentUuid": "4c48e689-24bd-42a3-aa0b-a1eacab9c941",
           "width": 152,
-          "x": 822,
-          "y": 6,
-          "zOrder": 2,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 190,
-          "layer": "",
-          "name": "Arbol",
-          "persistentUuid": "08d0592a-763c-4c3d-a727-535893ebdf44",
-          "width": 152,
-          "x": 30,
-          "y": 523,
+          "x": 950,
+          "y": 42,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -17453,66 +15647,6 @@
           "initialVariables": []
         },
         {
-          "angle": 0,
-          "customSize": true,
-          "height": 57,
-          "layer": "",
-          "name": "Barrel",
-          "persistentUuid": "75acbb2b-fd73-4fca-b4e5-1d9c8d194b1c",
-          "width": 49,
-          "x": 195,
-          "y": -6,
-          "zOrder": 15,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 57,
-          "layer": "",
-          "name": "Barrel",
-          "persistentUuid": "81f847c3-434c-44e6-bd23-68c9a05a9d0f",
-          "width": 49,
-          "x": 194,
-          "y": 23,
-          "zOrder": 15,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 57,
-          "layer": "",
-          "name": "Barrel",
-          "persistentUuid": "d251c271-7bb5-4f54-ba14-d91cee0d8bf5",
-          "width": 49,
-          "x": 196,
-          "y": 39,
-          "zOrder": 15,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 56,
-          "layer": "",
-          "name": "Barrel",
-          "persistentUuid": "4c62545c-46be-4c4e-a96d-855d0839efe0",
-          "width": 49,
-          "x": 194,
-          "y": 69,
-          "zOrder": 15,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
           "angle": 269,
           "customSize": true,
           "height": 34,
@@ -17608,55 +15742,10 @@
           "height": 190,
           "layer": "",
           "name": "Arbol",
-          "persistentUuid": "22d2f71b-d349-437a-a617-fc0a0c94ae4e",
-          "width": 152,
-          "x": 1168,
-          "y": 557,
-          "zOrder": 2,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 190,
-          "layer": "",
-          "name": "Arbol",
-          "persistentUuid": "f6ce4262-99a8-4c40-96f2-88dca703d44d",
-          "width": 152,
-          "x": 1103,
-          "y": -50,
-          "zOrder": 2,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 190,
-          "layer": "",
-          "name": "Arbol",
           "persistentUuid": "53b083e8-9116-40a2-b0e4-379dccbee906",
           "width": 152,
           "x": 534,
           "y": 543,
-          "zOrder": 2,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 190,
-          "layer": "",
-          "name": "Arbol",
-          "persistentUuid": "d1febc6e-b9e3-4b73-ace4-8cc43bbdcdec",
-          "width": 152,
-          "x": 833,
-          "y": 605,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -17685,9 +15774,1074 @@
           "name": "Grass",
           "persistentUuid": "0da96e2e-4eaa-4c25-baf7-e99aaff48456",
           "width": 1289,
+          "x": 1,
+          "y": -8,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 85,
+          "layer": "",
+          "name": "tress_source_1",
+          "persistentUuid": "a7f35d78-c1bc-4ccf-8611-731ddbe3f154",
+          "width": 94,
+          "x": 1140,
+          "y": 141,
+          "zOrder": 18,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 85,
+          "layer": "",
+          "name": "tress_source_1",
+          "persistentUuid": "15ed25f7-8ffb-4e16-ab28-eb2fc9a13291",
+          "width": 94,
+          "x": 1140,
+          "y": 207,
+          "zOrder": 18,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 740,
+          "layer": "",
+          "name": "Grass",
+          "persistentUuid": "e0a8f5f0-ec5c-4b97-9dec-3dc19fdf95cf",
+          "width": 1289,
           "x": 0,
           "y": -12,
           "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 85,
+          "layer": "",
+          "name": "tress_source_1",
+          "persistentUuid": "61b12f6e-3260-4cea-8c0e-73189118b6f3",
+          "width": 94,
+          "x": 972,
+          "y": 210,
+          "zOrder": 18,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 85,
+          "layer": "",
+          "name": "tress_source_1",
+          "persistentUuid": "04dc6253-83a8-4a0e-b4d9-1dd07424ac1d",
+          "width": 94,
+          "x": 982,
+          "y": -23,
+          "zOrder": 18,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 85,
+          "layer": "",
+          "name": "tress_source_1",
+          "persistentUuid": "f35e414f-d635-491b-97ff-9be13879b7e3",
+          "width": 94,
+          "x": 845,
+          "y": 139,
+          "zOrder": 18,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 85,
+          "layer": "",
+          "name": "tress_source_1",
+          "persistentUuid": "f5d8936b-ed05-4a87-bb3e-9f54dec2a716",
+          "width": 94,
+          "x": 830,
+          "y": 33,
+          "zOrder": 18,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 85,
+          "layer": "",
+          "name": "tress_source_1",
+          "persistentUuid": "194ebc50-e1c6-4dcb-8d00-5e106b298e83",
+          "width": 94,
+          "x": 699,
+          "y": 187,
+          "zOrder": 18,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 85,
+          "layer": "",
+          "name": "tress_source_1",
+          "persistentUuid": "52e9889d-1189-45f9-9c6c-8cd89d101753",
+          "width": 94,
+          "x": 508,
+          "y": 115,
+          "zOrder": 18,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 85,
+          "layer": "",
+          "name": "tress_source_1",
+          "persistentUuid": "efa4ae35-522f-4b97-a025-e7a60d8ec024",
+          "width": 94,
+          "x": 1045,
+          "y": 622,
+          "zOrder": 18,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 85,
+          "layer": "",
+          "name": "tress_source_1",
+          "persistentUuid": "81e6d37c-d617-4556-b912-ad4ae21f1641",
+          "width": 94,
+          "x": 714,
+          "y": 531,
+          "zOrder": 18,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 85,
+          "layer": "",
+          "name": "tress_source_1",
+          "persistentUuid": "f1010b8e-3011-4bee-81cb-fe2891bb0db9",
+          "width": 94,
+          "x": 717,
+          "y": 650,
+          "zOrder": 18,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 85,
+          "layer": "",
+          "name": "tress_source_1",
+          "persistentUuid": "57824507-79c2-47b6-a6f9-22f833c65d2f",
+          "width": 94,
+          "x": 122,
+          "y": 554,
+          "zOrder": 18,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 85,
+          "layer": "",
+          "name": "tress_source_1",
+          "persistentUuid": "dbd01d5e-466c-4ea0-8dad-1b921a030f70",
+          "width": 94,
+          "x": 17,
+          "y": 178,
+          "zOrder": 18,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 137,
+          "layer": "",
+          "name": "tress_source_2",
+          "persistentUuid": "83c9c4d5-1899-49ba-9a40-04b2952397c8",
+          "width": 140,
+          "x": 817,
+          "y": 190,
+          "zOrder": 19,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 137,
+          "layer": "",
+          "name": "tress_source_2",
+          "persistentUuid": "06a4b6eb-d660-4827-8928-dc977a6baebc",
+          "width": 140,
+          "x": 680,
+          "y": 100,
+          "zOrder": 19,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 137,
+          "layer": "",
+          "name": "tress_source_2",
+          "persistentUuid": "883e5af2-fdd3-4515-be3c-aa3556099bcc",
+          "width": 140,
+          "x": 998,
+          "y": 495,
+          "zOrder": 19,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 137,
+          "layer": "",
+          "name": "tress_source_2",
+          "persistentUuid": "4180088d-9b03-4ea3-b239-063ffdd93827",
+          "width": 140,
+          "x": 542,
+          "y": 174,
+          "zOrder": 19,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 137,
+          "layer": "",
+          "name": "tress_source_2",
+          "persistentUuid": "9d19c9fa-009f-456c-90e7-f7756cf11d70",
+          "width": 140,
+          "x": -7,
+          "y": 498,
+          "zOrder": 19,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 137,
+          "layer": "",
+          "name": "tress_source_2",
+          "persistentUuid": "f1db5d13-f3d8-4b39-bc86-18660d339dcf",
+          "width": 140,
+          "x": 671,
+          "y": 256,
+          "zOrder": 19,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 137,
+          "layer": "",
+          "name": "tress_source_2",
+          "persistentUuid": "e54b91a1-ae1b-4cea-a6e9-6fe68360e7aa",
+          "width": 140,
+          "x": 824,
+          "y": 423,
+          "zOrder": 19,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 325,
+          "layer": "",
+          "name": "tress_source_3",
+          "persistentUuid": "ff4c0092-bb2a-483b-877c-d1a579b689a4",
+          "width": 285,
+          "x": 1037,
+          "y": -119,
+          "zOrder": 20,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 325,
+          "layer": "",
+          "name": "tress_source_3",
+          "persistentUuid": "9ee27b7d-e8f2-4c2a-ac97-a5a2af39e090",
+          "width": 285,
+          "x": 608,
+          "y": -133,
+          "zOrder": 20,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 325,
+          "layer": "",
+          "name": "tress_source_3",
+          "persistentUuid": "fba47382-ce21-4c55-ac42-0ae5b03a689a",
+          "width": 285,
+          "x": -74,
+          "y": -105,
+          "zOrder": 20,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 325,
+          "layer": "",
+          "name": "tress_source_3",
+          "persistentUuid": "f7807d56-488d-4099-a784-5cca6e730858",
+          "width": 285,
+          "x": -62,
+          "y": 521,
+          "zOrder": 20,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 325,
+          "layer": "",
+          "name": "tress_source_3",
+          "persistentUuid": "e638615e-6c9c-452e-8e50-274bd20131e4",
+          "width": 285,
+          "x": 789,
+          "y": 472,
+          "zOrder": 20,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 325,
+          "layer": "",
+          "name": "tress_source_3",
+          "persistentUuid": "6314169c-826e-4e2f-9e11-fd2deca9b28a",
+          "width": 285,
+          "x": 1057,
+          "y": 420,
+          "zOrder": 20,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Palm_tree1_3",
+          "persistentUuid": "0419dd80-1c54-4b09-bc29-8d4d7aa63cab",
+          "width": 0,
+          "x": 471,
+          "y": 673,
+          "zOrder": 21,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Palm_tree1_3",
+          "persistentUuid": "48b03f3b-3bab-4501-9d4d-723f1f5197f4",
+          "width": 0,
+          "x": 649,
+          "y": 500,
+          "zOrder": 21,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Palm_tree1_3",
+          "persistentUuid": "caccdcb1-85b4-400c-876d-2cf1a244f54b",
+          "width": 0,
+          "x": 786,
+          "y": 621,
+          "zOrder": 21,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Palm_tree1_3",
+          "persistentUuid": "8ce1d34a-4139-4826-8625-6abae316c87d",
+          "width": 0,
+          "x": 1142,
+          "y": 584,
+          "zOrder": 21,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Palm_tree1_3",
+          "persistentUuid": "c5568621-7c0b-49ba-a6a1-af9a4182fab4",
+          "width": 0,
+          "x": 1135,
+          "y": 591,
+          "zOrder": 21,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Palm_tree1_3",
+          "persistentUuid": "54cb8d6e-f110-44a9-acd8-3bc42a2f952c",
+          "width": 0,
+          "x": 948,
+          "y": 479,
+          "zOrder": 21,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Palm_tree1_3",
+          "persistentUuid": "88b60513-c69a-4c72-8560-938cdf7b4db0",
+          "width": 0,
+          "x": 1208,
+          "y": 671,
+          "zOrder": 21,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Palm_tree1_3",
+          "persistentUuid": "ff5263f5-bb6a-482d-a7a4-6d7bb9b87163",
+          "width": 0,
+          "x": 1006,
+          "y": 637,
+          "zOrder": 21,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Palm_tree1_3",
+          "persistentUuid": "afc7ae41-9396-48fa-8a8f-00578f495b3c",
+          "width": 0,
+          "x": 614,
+          "y": 98,
+          "zOrder": 21,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Palm_tree1_3",
+          "persistentUuid": "726d8a90-842f-45b3-8181-57a30eb66ee6",
+          "width": 0,
+          "x": 1080,
+          "y": 259,
+          "zOrder": 21,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Palm_tree1_3",
+          "persistentUuid": "e0623630-acec-423e-8272-135d1714105b",
+          "width": 0,
+          "x": 768,
+          "y": 215,
+          "zOrder": 21,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Palm_tree1_3",
+          "persistentUuid": "8014d4c4-4d1c-44d3-9501-9ba5bb75bced",
+          "width": 0,
+          "x": 496,
+          "y": 191,
+          "zOrder": 21,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Palm_tree1_3",
+          "persistentUuid": "92571d14-5ab9-4b55-8eec-dbe678ebf05b",
+          "width": 0,
+          "x": 483,
+          "y": 37,
+          "zOrder": 21,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Palm_tree1_3",
+          "persistentUuid": "17cddc3d-0626-4508-b2d9-aec437ac0ab1",
+          "width": 0,
+          "x": 183,
+          "y": 204,
+          "zOrder": 21,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Palm_tree1_3",
+          "persistentUuid": "60681243-3441-4ab5-8f05-f3c4c08e4abb",
+          "width": 0,
+          "x": 102,
+          "y": 106,
+          "zOrder": 21,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Palm_tree1_3",
+          "persistentUuid": "b170d344-9df1-4a76-9105-d4c9c555d513",
+          "width": 0,
+          "x": 96,
+          "y": 223,
+          "zOrder": 21,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Palm_tree1_3",
+          "persistentUuid": "0f67f0e9-1a5d-416f-b948-305bd9f166a3",
+          "width": 0,
+          "x": 118,
+          "y": 482,
+          "zOrder": 21,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Palm_tree1_3",
+          "persistentUuid": "eadeb214-7905-4f23-a595-18927c7458e1",
+          "width": 0,
+          "x": 153,
+          "y": 657,
+          "zOrder": 21,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Palm_tree1_3",
+          "persistentUuid": "ad685297-4b9f-43b8-8eee-5c47b5dbbb4f",
+          "width": 0,
+          "x": 497,
+          "y": 510,
+          "zOrder": 21,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 82,
+          "layer": "",
+          "name": "Rock7_water_shadow2",
+          "persistentUuid": "410ffc40-747b-4b36-8578-7eae468c5c54",
+          "width": 95,
+          "x": 390,
+          "y": -40,
+          "zOrder": 22,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 82,
+          "layer": "",
+          "name": "Rock7_water_shadow2",
+          "persistentUuid": "3e80ea90-9285-4f39-9db4-ed9f8414c155",
+          "width": 95,
+          "x": 434,
+          "y": -20,
+          "zOrder": 22,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 82,
+          "layer": "",
+          "name": "Rock7_water_shadow2",
+          "persistentUuid": "8d7552f2-6c59-43a3-a99f-9a815765f4b9",
+          "width": 95,
+          "x": 453,
+          "y": 21,
+          "zOrder": 22,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 82,
+          "layer": "",
+          "name": "Rock7_water_shadow2",
+          "persistentUuid": "cf57b4b9-a22d-4b3c-857e-eef01cfebdb8",
+          "width": 97,
+          "x": 330,
+          "y": -49,
+          "zOrder": 22,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 82,
+          "layer": "",
+          "name": "Rock7_water_shadow2",
+          "persistentUuid": "8ea6d272-4afc-44d5-92d6-268e0a0f2ed9",
+          "width": 95,
+          "x": 461,
+          "y": 611,
+          "zOrder": 22,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 82,
+          "layer": "",
+          "name": "Rock7_water_shadow2",
+          "persistentUuid": "a186ef56-51d3-4e6a-bfa4-068999a79c37",
+          "width": 95,
+          "x": 527,
+          "y": 687,
+          "zOrder": 22,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 82,
+          "layer": "",
+          "name": "Rock7_water_shadow2",
+          "persistentUuid": "f9c6ba0b-023b-41d9-88ac-f603739b5305",
+          "width": 95,
+          "x": 472,
+          "y": 667,
+          "zOrder": 22,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 82,
+          "layer": "",
+          "name": "Rock7_water_shadow2",
+          "persistentUuid": "4cfcf703-b124-41fe-9c71-5a8f789c629d",
+          "width": 95,
+          "x": 461,
+          "y": 55,
+          "zOrder": 22,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 79,
+          "layer": "",
+          "name": "Rock7_water_shadow2",
+          "persistentUuid": "80fd028b-016c-47b7-861b-860d566cea23",
+          "width": 95,
+          "x": 186,
+          "y": 670,
+          "zOrder": 22,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 82,
+          "layer": "",
+          "name": "Rock7_water_shadow2",
+          "persistentUuid": "72963b32-6d0f-4326-90a3-486ed8f2d002",
+          "width": 95,
+          "x": 238,
+          "y": 687,
+          "zOrder": 22,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 82,
+          "layer": "",
+          "name": "Rock7_water_shadow2",
+          "persistentUuid": "bc0742b5-b203-40b9-bee4-55104ac1b414",
+          "width": 95,
+          "x": 335,
+          "y": 260,
+          "zOrder": 22,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 82,
+          "layer": "",
+          "name": "Rock7_water_shadow2",
+          "persistentUuid": "46c9cbf7-fed1-4bf1-945d-8148ab0f5e1d",
+          "width": 93,
+          "x": 158,
+          "y": -34,
+          "zOrder": 22,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 82,
+          "layer": "",
+          "name": "Rock7_water_shadow2",
+          "persistentUuid": "94737797-3b35-4041-8a72-8be1fa385c0f",
+          "width": 95,
+          "x": 181,
+          "y": 7,
+          "zOrder": 22,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 82,
+          "layer": "",
+          "name": "Rock7_water_shadow2",
+          "persistentUuid": "d0b1c711-c0ab-473a-b084-9f76e3a484ea",
+          "width": 95,
+          "x": 181,
+          "y": 616,
+          "zOrder": 22,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 184,
+          "layer": "puente",
+          "name": "wood",
+          "persistentUuid": "1502ff9d-7a78-42ed-a094-216eec3914d8",
+          "width": 20,
+          "x": 489,
+          "y": 320,
+          "zOrder": 23,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 184,
+          "layer": "puente",
+          "name": "wood",
+          "persistentUuid": "27179efd-0779-4bd3-834b-503a8f0741a8",
+          "width": 20,
+          "x": 457,
+          "y": 319,
+          "zOrder": 23,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 184,
+          "layer": "puente",
+          "name": "wood",
+          "persistentUuid": "1980f3a5-581b-4713-9d0c-b3bac2a1889d",
+          "width": 20,
+          "x": 422,
+          "y": 323,
+          "zOrder": 23,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 184,
+          "layer": "puente",
+          "name": "wood",
+          "persistentUuid": "c58a9eba-afe5-466d-bbb2-dec003321305",
+          "width": 20,
+          "x": 388,
+          "y": 320,
+          "zOrder": 23,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 184,
+          "layer": "puente",
+          "name": "wood",
+          "persistentUuid": "06ca7588-627a-4c9f-a1c5-e8a6156ae7bf",
+          "width": 20,
+          "x": 227,
+          "y": 319,
+          "zOrder": 23,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 184,
+          "layer": "puente",
+          "name": "wood",
+          "persistentUuid": "ed3b4374-80c7-4569-9be2-3dddcd36a098",
+          "width": 20,
+          "x": 352,
+          "y": 326,
+          "zOrder": 23,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 184,
+          "layer": "puente",
+          "name": "wood",
+          "persistentUuid": "7abe3e24-5c96-4569-b71b-7bd99e83c145",
+          "width": 20,
+          "x": 254,
+          "y": 319,
+          "zOrder": 23,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 184,
+          "layer": "puente",
+          "name": "wood",
+          "persistentUuid": "d2d47600-a629-4706-802c-4c57a3474ee5",
+          "width": 20,
+          "x": 280,
+          "y": 324,
+          "zOrder": 23,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 184,
+          "layer": "puente",
+          "name": "wood",
+          "persistentUuid": "a8f8ba3e-df24-4936-af34-c6e783d215fd",
+          "width": 20,
+          "x": 315,
+          "y": 318,
+          "zOrder": 23,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 270,
+          "customSize": true,
+          "height": 277,
+          "layer": "puente",
+          "name": "wood",
+          "persistentUuid": "7c3d956e-8a13-46e0-b550-bf20e42a6f85",
+          "width": 11,
+          "x": 361,
+          "y": 184,
+          "zOrder": 23,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 270,
+          "customSize": true,
+          "height": 277,
+          "layer": "puente",
+          "name": "wood",
+          "persistentUuid": "f04e5218-081e-4e26-9500-da5bdee43874",
+          "width": 11,
+          "x": 361,
+          "y": 360,
+          "zOrder": 23,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -18006,6 +17160,264 @@
               ]
             }
           ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "tress_source_1",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Broken_tree3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "tress_source_2",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Broken_tree4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "tress_source_3",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Palm_tree2_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "height": 32,
+          "name": "NewTiledSprite",
+          "tags": "",
+          "texture": "",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "assetStoreId": "",
+          "name": "Palm_tree1_3",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Palm_tree1_3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "Rock7_water_shadow2",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Rock7_water_shadow2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "wood",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "885.jpg",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "events": [
@@ -18249,1264 +17661,16 @@
             }
           ],
           "effects": []
-        }
-      ],
-      "behaviorsSharedData": []
-    },
-    {
-      "b": 209,
-      "disableInputWhenNotFocused": true,
-      "mangledName": "sierra",
-      "name": "sierra",
-      "r": 209,
-      "standardSortMethod": true,
-      "stopSoundsOnStartup": true,
-      "title": "",
-      "v": 209,
-      "uiSettings": {
-        "grid": false,
-        "gridType": "rectangular",
-        "gridWidth": 32,
-        "gridHeight": 32,
-        "gridOffsetX": 0,
-        "gridOffsetY": 0,
-        "gridColor": 10401023,
-        "gridAlpha": 0.8,
-        "snap": false,
-        "zoomFactor": 0.6672773998330026,
-        "windowMask": false
-      },
-      "objectsGroups": [],
-      "variables": [],
-      "instances": [
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 740,
-          "layer": "",
-          "name": "Grass",
-          "persistentUuid": "702ea4c3-9b18-486b-8c1d-97ed7a251df4",
-          "width": 1289,
-          "x": -15,
-          "y": -8,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
         },
         {
-          "angle": 0,
-          "customSize": true,
-          "height": 190,
-          "layer": "",
-          "name": "Arbol",
-          "persistentUuid": "895c61aa-d289-40ce-b6bc-dfa879832ec1",
-          "width": 152,
-          "x": -30,
-          "y": -41,
-          "zOrder": 2,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 174,
-          "layer": "",
-          "name": "Tierra",
-          "persistentUuid": "631b7095-228f-42df-a53c-3b3bbbe5617c",
-          "width": 1286,
-          "x": -7,
-          "y": 319,
-          "zOrder": 4,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 360,
-          "customSize": true,
-          "height": 180,
-          "layer": "",
-          "name": "Puente",
-          "persistentUuid": "1433b30d-339b-465a-9e17-63a98432154b",
-          "width": 297,
-          "x": 217,
-          "y": 320,
-          "zOrder": 10,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 91,
-          "customSize": true,
-          "height": 34,
-          "layer": "",
-          "name": "Piedra",
-          "persistentUuid": "fbf7946a-4239-48e5-becd-f95b3605215c",
-          "width": 40,
-          "x": 508,
-          "y": 328,
-          "zOrder": 7,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 91,
-          "customSize": true,
-          "height": 34,
-          "layer": "",
-          "name": "Piedra",
-          "persistentUuid": "bf41963e-308f-4409-8c6c-ee1d9856f709",
-          "width": 40,
-          "x": 509,
-          "y": 383,
-          "zOrder": 7,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 91,
-          "customSize": true,
-          "height": 34,
-          "layer": "",
-          "name": "Piedra",
-          "persistentUuid": "3479fe2e-7ca1-402a-8209-c3f4565a3a8f",
-          "width": 40,
-          "x": 511,
-          "y": 411,
-          "zOrder": 7,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 91,
-          "customSize": true,
-          "height": 34,
-          "layer": "",
-          "name": "Piedra",
-          "persistentUuid": "b8b0588f-6475-4b4f-8c83-d01f17e146b7",
-          "width": 40,
-          "x": 489,
-          "y": 445,
-          "zOrder": 7,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 91,
-          "customSize": true,
-          "height": 34,
-          "layer": "",
-          "name": "Piedra",
-          "persistentUuid": "132d80d4-0aee-4669-a79d-d17fd6e146ef",
-          "width": 27,
-          "x": 514,
-          "y": 354,
-          "zOrder": 7,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 270,
-          "customSize": true,
-          "height": 33,
-          "layer": "",
-          "name": "Piedra",
-          "persistentUuid": "4a9587e3-ad35-421e-9abe-ee38af08856c",
-          "width": 36,
-          "x": 328,
-          "y": 395,
-          "zOrder": 9,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 90,
-          "customSize": true,
-          "height": 34,
-          "layer": "",
-          "name": "Piedra",
-          "persistentUuid": "ccda3ae7-33d5-4ea5-b259-3bbda24b6569",
-          "width": 40,
-          "x": 370,
-          "y": 374,
-          "zOrder": 7,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 270,
-          "customSize": true,
-          "height": 33,
-          "layer": "",
-          "name": "Piedra",
-          "persistentUuid": "25de0008-510b-4178-bdd8-a1029852e832",
-          "width": 36,
-          "x": 331,
-          "y": 434,
-          "zOrder": 9,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 270,
-          "customSize": true,
-          "height": 33,
-          "layer": "",
-          "name": "Piedra",
-          "persistentUuid": "b66800a4-1da8-423d-a9db-cdb1e392369d",
-          "width": 36,
-          "x": 333,
-          "y": 460,
-          "zOrder": 9,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 270,
-          "customSize": true,
-          "height": 33,
-          "layer": "",
-          "name": "Piedra",
-          "persistentUuid": "00b03426-ba85-44de-aa76-9be3bdc85f7e",
-          "width": 36,
-          "x": 330,
-          "y": 364,
-          "zOrder": 9,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 270,
-          "customSize": true,
-          "height": 33,
-          "layer": "",
-          "name": "Piedra",
-          "persistentUuid": "58eade13-1d25-40af-ae0d-ff77a3cc3eb1",
-          "width": 36,
-          "x": 329,
-          "y": 325,
-          "zOrder": 9,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 270,
-          "customSize": true,
-          "height": 33,
-          "layer": "",
-          "name": "Piedra",
-          "persistentUuid": "da2d47b4-5160-43d7-995d-4802d27596ba",
-          "width": 36,
-          "x": 332,
-          "y": 351,
-          "zOrder": 9,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 270,
-          "customSize": true,
-          "height": 33,
-          "layer": "",
-          "name": "Piedra",
-          "persistentUuid": "195fa2cd-01c0-4a61-89bb-1a40abfafa5f",
-          "width": 36,
-          "x": 333,
-          "y": 352,
-          "zOrder": 9,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 64,
-          "layer": "Background",
-          "name": "Bush",
-          "persistentUuid": "a61a6545-57ee-4d7d-85c4-4a5c31226ba7",
-          "width": 78,
-          "x": 925,
-          "y": 672,
-          "zOrder": 11,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 190,
-          "layer": "",
-          "name": "Arbol",
-          "persistentUuid": "8dabddfb-e27d-4a32-900d-b0c310aaba7c",
-          "width": 152,
-          "x": 587,
-          "y": -40,
-          "zOrder": 2,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 190,
-          "layer": "",
-          "name": "Arbol",
-          "persistentUuid": "4c48e689-24bd-42a3-aa0b-a1eacab9c941",
-          "width": 152,
-          "x": 822,
-          "y": 6,
-          "zOrder": 2,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 190,
-          "layer": "",
-          "name": "Arbol",
-          "persistentUuid": "08d0592a-763c-4c3d-a727-535893ebdf44",
-          "width": 152,
-          "x": 30,
-          "y": 523,
-          "zOrder": 2,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 57,
-          "layer": "",
-          "name": "Barrel",
-          "persistentUuid": "4724f0f6-f559-4acc-b87f-44fab436735f",
-          "width": 49,
-          "x": 195,
-          "y": 120,
-          "zOrder": 15,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 40,
-          "layer": "",
-          "name": "Barrier",
-          "persistentUuid": "b9795d36-ea32-442d-bc33-84d52717f626",
-          "width": 63,
-          "x": 119,
-          "y": 38,
-          "zOrder": 16,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 33,
-          "layer": "",
-          "name": "Rock5",
-          "persistentUuid": "955a3fee-9377-42ff-989b-ffb7d8df04bf",
-          "width": 50,
-          "x": 193,
-          "y": 288,
-          "zOrder": 17,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 33,
-          "layer": "",
-          "name": "Rock5",
-          "persistentUuid": "674c67e3-3eb7-4df8-a432-e00b5d3948c4",
-          "width": 50,
-          "x": 186,
-          "y": 487,
-          "zOrder": 17,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 33,
-          "layer": "",
-          "name": "Rock5",
-          "persistentUuid": "f506bdbe-7ae1-411d-9c17-f35a7d3fe473",
-          "width": 50,
-          "x": 482,
-          "y": 289,
-          "zOrder": 17,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 33,
-          "layer": "",
-          "name": "Rock5",
-          "persistentUuid": "37ef273c-52da-4fc0-a68f-c108c2431dce",
-          "width": 50,
-          "x": 490,
-          "y": 477,
-          "zOrder": 17,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 57,
-          "layer": "",
-          "name": "Barrel",
-          "persistentUuid": "084f7904-5e42-45cd-b9fa-989bc2993713",
-          "width": 49,
-          "x": 195,
-          "y": 89,
-          "zOrder": 15,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 57,
-          "layer": "",
-          "name": "Barrel",
-          "persistentUuid": "75acbb2b-fd73-4fca-b4e5-1d9c8d194b1c",
-          "width": 49,
-          "x": 195,
-          "y": -6,
-          "zOrder": 15,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 57,
-          "layer": "",
-          "name": "Barrel",
-          "persistentUuid": "81f847c3-434c-44e6-bd23-68c9a05a9d0f",
-          "width": 49,
-          "x": 194,
-          "y": 23,
-          "zOrder": 15,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 57,
-          "layer": "",
-          "name": "Barrel",
-          "persistentUuid": "d251c271-7bb5-4f54-ba14-d91cee0d8bf5",
-          "width": 49,
-          "x": 196,
-          "y": 39,
-          "zOrder": 15,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 56,
-          "layer": "",
-          "name": "Barrel",
-          "persistentUuid": "4c62545c-46be-4c4e-a96d-855d0839efe0",
-          "width": 49,
-          "x": 194,
-          "y": 69,
-          "zOrder": 15,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 269,
-          "customSize": true,
-          "height": 34,
-          "layer": "",
-          "name": "Piedra",
-          "persistentUuid": "b2cdc6e4-78fa-4b4f-a484-a6bb065a606b",
-          "width": 40,
-          "x": 179,
-          "y": 398,
-          "zOrder": 7,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 269,
-          "customSize": true,
-          "height": 34,
-          "layer": "",
-          "name": "Piedra",
-          "persistentUuid": "03c588a1-634a-4bc6-88ec-ef874dcc7f44",
-          "width": 27,
-          "x": 185,
-          "y": 426,
-          "zOrder": 7,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 269,
-          "customSize": true,
-          "height": 34,
-          "layer": "",
-          "name": "Piedra",
-          "persistentUuid": "95e440aa-ef9b-4655-b9ed-80bc4c7fa70e",
-          "width": 40,
-          "x": 182,
-          "y": 454,
-          "zOrder": 7,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 269,
-          "customSize": true,
-          "height": 34,
-          "layer": "",
-          "name": "Piedra",
-          "persistentUuid": "10293988-ce71-4d94-bd12-ec4fafadfd64",
-          "width": 40,
-          "x": 182,
-          "y": 369,
-          "zOrder": 7,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 269,
-          "customSize": true,
-          "height": 34,
-          "layer": "",
-          "name": "Piedra",
-          "persistentUuid": "7f9050fd-3fad-4356-8544-6bec6e0c6a28",
-          "width": 40,
-          "x": 180,
-          "y": 323,
-          "zOrder": 7,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 91,
-          "customSize": true,
-          "height": 34,
-          "layer": "",
-          "name": "Piedra",
-          "persistentUuid": "dc6325b0-b088-48a3-89f2-ff1571e4e3ba",
-          "width": 40,
-          "x": 511,
-          "y": 449,
-          "zOrder": 7,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 190,
-          "layer": "",
-          "name": "Arbol",
-          "persistentUuid": "22d2f71b-d349-437a-a617-fc0a0c94ae4e",
-          "width": 152,
-          "x": 1168,
-          "y": 557,
-          "zOrder": 2,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 190,
-          "layer": "",
-          "name": "Arbol",
-          "persistentUuid": "f6ce4262-99a8-4c40-96f2-88dca703d44d",
-          "width": 152,
-          "x": 1103,
-          "y": -50,
-          "zOrder": 2,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 190,
-          "layer": "",
-          "name": "Arbol",
-          "persistentUuid": "53b083e8-9116-40a2-b0e4-379dccbee906",
-          "width": 152,
-          "x": 534,
-          "y": 543,
-          "zOrder": 2,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 190,
-          "layer": "",
-          "name": "Arbol",
-          "persistentUuid": "d1febc6e-b9e3-4b73-ace4-8cc43bbdcdec",
-          "width": 152,
-          "x": 833,
-          "y": 605,
-          "zOrder": 2,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 742,
-          "layer": "",
-          "name": "Rio",
-          "persistentUuid": "9a3adcb8-4f71-4c91-bb1d-77122993c943",
-          "width": 264,
-          "x": 237,
-          "y": -6,
-          "zOrder": 8,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 740,
-          "layer": "",
-          "name": "Grass",
-          "persistentUuid": "0da96e2e-4eaa-4c25-baf7-e99aaff48456",
-          "width": 1289,
-          "x": 0,
-          "y": -12,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        }
-      ],
-      "objects": [
-        {
-          "assetStoreId": "",
-          "height": 32,
-          "name": "Grass",
-          "tags": "",
-          "texture": "objects.jpg2222222223",
-          "type": "TiledSpriteObject::TiledSprite",
-          "width": 32,
-          "variables": [],
-          "effects": [],
-          "behaviors": []
-        },
-        {
-          "assetStoreId": "",
-          "height": 32,
-          "name": "Grass2",
-          "tags": "",
-          "texture": "objects.jpg222222222",
-          "type": "TiledSpriteObject::TiledSprite",
-          "width": 32,
-          "variables": [],
-          "effects": [],
-          "behaviors": []
-        },
-        {
-          "assetStoreId": "",
-          "height": 32,
-          "name": "Tierra",
-          "tags": "",
-          "texture": "objects.jpg2233",
-          "type": "TiledSpriteObject::TiledSprite",
-          "width": 32,
-          "variables": [],
-          "effects": [],
-          "behaviors": []
-        },
-        {
-          "assetStoreId": "",
-          "height": 32,
-          "name": "Tierra2",
-          "tags": "",
-          "texture": "objects.jpg2232",
-          "type": "TiledSpriteObject::TiledSprite",
-          "width": 32,
-          "variables": [],
-          "effects": [],
-          "behaviors": []
-        },
-        {
-          "assetStoreId": "",
-          "name": "Arbol",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "objects",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "objects.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "assetStoreId": "d5ce0de20ffbc1295de068b6184ae94e1a5e7a23ef841e321deda496d2a2aa78",
-          "name": "Piedra",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "Grass foreground",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": true,
-                  "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.025,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Grass foreground",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "assetStoreId": "3f294355a854e85aeb0e08c0e0ab9ad836c01468f7623e583beff5fe0c173a44",
-          "height": 128,
-          "name": "Rio",
-          "tags": "",
-          "texture": "tiled_Summer Tile Water.png2222",
-          "type": "TiledSpriteObject::TiledSprite",
-          "width": 128,
-          "variables": [],
-          "effects": [],
-          "behaviors": []
-        },
-        {
-          "assetStoreId": "08d9802965c3beec17416c0e0ff3f459710d2e2bf155c0e0ece4459d4efa98ec",
-          "bottomMargin": 64,
-          "height": 192,
-          "leftMargin": 64,
-          "name": "Puente",
-          "rightMargin": 64,
-          "tags": "",
-          "texture": "9patch_Wood Background_all_64.png",
-          "tiled": true,
-          "topMargin": 64,
-          "type": "PanelSpriteObject::PanelSprite",
-          "width": 192,
-          "variables": [],
-          "effects": [],
-          "behaviors": []
-        },
-        {
-          "assetStoreId": "d5c976ea0e9614d55b06f5322c2fcf29fb18ffda7e157e83b3d258e59d4baba8",
-          "name": "Bush",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": true,
-                  "timeBetweenFrames": 0.025,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Bush.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "assetStoreId": "fa9c225a41848d3138c70f9ebf236a768e417adac86868d4cd810a32dafceaf5",
-          "name": "Barrel",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": true,
-                  "timeBetweenFrames": 0.025,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Barrel.png2",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "assetStoreId": "2c2d57a69701e69d419f00179b82a3bd0b546bae52fc704ec43c5049a5c83fb9",
-          "name": "Barrier",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": true,
-                  "timeBetweenFrames": 0.025,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Barrier.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "assetStoreId": "d35474e98652b19cb659ce5fb5cbafa39af0f306caa34e970463f5ef04344fad",
-          "name": "Rock5",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": true,
-                  "timeBetweenFrames": 0.025,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Rock 5.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ],
-      "events": [
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "DepartScene"
-              },
-              "parameters": [
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "ChangeColor"
-              },
-              "parameters": [
-                "fondo2",
-                "\"114;101;101\""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "AnyKeyReleased"
-              },
-              "parameters": [
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "GlobalVariableAsBoolean"
-              },
-              "parameters": [
-                "narrativa",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "BBText::SetBBText"
-              },
-              "parameters": [
-                "NewBBText",
-                "=",
-                "\"[spacing=12]cambio1111[/spacing]\""
-              ]
-            },
-            {
-              "type": {
-                "value": "SetGlobalVariableAsBoolean"
-              },
-              "parameters": [
-                "narrativa",
-                "True"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "AnyKeyPressed"
-              },
-              "parameters": [
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "GlobalVariableAsBoolean"
-              },
-              "parameters": [
-                "narrativa",
-                "True"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "BBText::SetBBText"
-              },
-              "parameters": [
-                "NewBBText",
-                "=",
-                "\"[spacing=12]cambio222[/spacing]\""
-              ]
-            },
-            {
-              "type": {
-                "value": "SetGlobalVariableAsBoolean"
-              },
-              "parameters": [
-                "camina",
-                "True"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "FlatBoy",
-                "derecha",
-                "",
-                "",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "GlobalVariableAsBoolean"
-              },
-              "parameters": [
-                "camina",
-                "True"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "ModVarObjetTxt"
-              },
-              "parameters": [
-                "FlatBoy",
-                "direccion",
-                "=",
-                "\"derecha\""
-              ]
-            },
-            {
-              "type": {
-                "value": "ChangeAnimation"
-              },
-              "parameters": [
-                "FlatBoy",
-                "=",
-                "2"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "VarObjetTxt"
-              },
-              "parameters": [
-                "FlatBoy",
-                "direccion",
-                "=",
-                "\"derecha\""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "AddForceAL"
-              },
-              "parameters": [
-                "FlatBoy",
-                "0",
-                "90",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "FlatBoy",
-                "termina",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Scene"
-              },
-              "parameters": [
-                "",
-                "\"game\"",
-                ""
-              ]
-            }
-          ]
-        }
-      ],
-      "layers": [
-        {
-          "ambientLightColorB": 16633016,
-          "ambientLightColorG": 150995054,
-          "ambientLightColorR": 1869182049,
+          "ambientLightColorB": 11932456,
+          "ambientLightColorG": 6069792,
+          "ambientLightColorR": 11662848,
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
-          "name": "",
+          "name": "puente",
           "visibility": true,
-          "cameras": [
-            {
-              "defaultSize": true,
-              "defaultViewport": true,
-              "height": 0,
-              "viewportBottom": 1,
-              "viewportLeft": 0,
-              "viewportRight": 1,
-              "viewportTop": 0,
-              "width": 0
-            }
-          ],
+          "cameras": [],
           "effects": []
         }
       ],
@@ -19532,7 +17696,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.6672773998330026,
+        "zoomFactor": 0.5468750000000046,
         "windowMask": false
       },
       "objectsGroups": [],
