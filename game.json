@@ -3897,6 +3897,58 @@
         "name": "objects.jpg2222222",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Heart2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Heart.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Western FPS 2D/Item/Cards/886aa882431983dce03cd03a9270225a8bb5d1336052da2ca0bc2eac823895ba_Heart.png",
+          "name": "Heart.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Generic ball (1).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Generic ball (1).png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Sports pack (380 assets)/PNG/Equipment/8d122a8c9cda0e364528b8a5c0005e98e5f1f65acc6ca2e9acc539d48203870c_Generic ball (1).png",
+          "name": "Generic ball (1).png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Fire round button.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Fire round button.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/On-Screen Controls/Sprites/Flat Dark/10332be17c5da07b263300c70d68d07ae01df8822f0ea5bc093da8d0c22c5635_Fire round button.png",
+          "name": "Fire round button.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Cross.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cross.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Console Inputs/PS4/2a14256e97437699483fd85357e02d8148aa3af1605be5c0729b9e24024e6856_Cross.png",
+          "name": "Cross.png"
+        }
       }
     ],
     "resourceFolders": []
@@ -3921,6 +3973,12 @@
       "name": "camina",
       "type": "boolean",
       "value": false
+    },
+    {
+      "folded": true,
+      "name": "coin",
+      "type": "number",
+      "value": 100
     }
   ],
   "layouts": [
@@ -10680,34 +10738,7 @@
           "type": "TiledUnitsBar::TiledUnitsBar",
           "variables": [],
           "effects": [],
-          "behaviors": [],
-          "content": {
-            "UnitWidth": 90,
-            "HideBackground": true,
-            "ShowBackground": false
-          },
-          "childrenContent": {
-            "Background": {
-              "bottomMargin": 0,
-              "height": 90,
-              "leftMargin": 0,
-              "rightMargin": 0,
-              "texture": "Flat Heart Empty.png",
-              "tiled": false,
-              "topMargin": 0,
-              "width": 270
-            },
-            "Bar": {
-              "height": 90,
-              "texture": "Flat Heart Empty.png",
-              "width": 90
-            },
-            "FillBar": {
-              "height": 90,
-              "texture": "Flat Heart Filled.png",
-              "width": 90
-            }
-          }
+          "behaviors": []
         }
       ],
       "events": [
@@ -11370,6 +11401,11 @@
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
         }
       ],
       "layers": [
@@ -13735,14 +13771,14 @@
       "uiSettings": {
         "grid": false,
         "gridType": "rectangular",
-        "gridWidth": 32,
-        "gridHeight": 32,
+        "gridWidth": 16,
+        "gridHeight": 16,
         "gridOffsetX": 0,
         "gridOffsetY": 0,
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.5117784035210212,
+        "zoomFactor": 0.565315805512636,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -13751,29 +13787,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 740,
-          "layer": "",
+          "height": 733,
+          "layer": "Background",
           "name": "Grass",
           "persistentUuid": "702ea4c3-9b18-486b-8c1d-97ed7a251df4",
-          "width": 1289,
-          "x": -15,
+          "width": 1280,
+          "x": -2,
           "y": -8,
           "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 190,
-          "layer": "",
-          "name": "Arbol",
-          "persistentUuid": "895c61aa-d289-40ce-b6bc-dfa879832ec1",
-          "width": 152,
-          "x": -30,
-          "y": -41,
-          "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -13803,7 +13824,7 @@
           "width": 297,
           "x": 217,
           "y": 320,
-          "zOrder": 10,
+          "zOrder": 20,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -14051,51 +14072,6 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 190,
-          "layer": "",
-          "name": "Arbol",
-          "persistentUuid": "08d0592a-763c-4c3d-a727-535893ebdf44",
-          "width": 152,
-          "x": 30,
-          "y": 523,
-          "zOrder": 2,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 57,
-          "layer": "",
-          "name": "Barrel",
-          "persistentUuid": "4724f0f6-f559-4acc-b87f-44fab436735f",
-          "width": 49,
-          "x": 195,
-          "y": 120,
-          "zOrder": 15,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 40,
-          "layer": "",
-          "name": "Barrier",
-          "persistentUuid": "b9795d36-ea32-442d-bc33-84d52717f626",
-          "width": 63,
-          "x": 119,
-          "y": 38,
-          "zOrder": 16,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
           "height": 33,
           "layer": "",
           "name": "Rock5",
@@ -14149,81 +14125,6 @@
           "x": 490,
           "y": 477,
           "zOrder": 17,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 57,
-          "layer": "",
-          "name": "Barrel",
-          "persistentUuid": "084f7904-5e42-45cd-b9fa-989bc2993713",
-          "width": 49,
-          "x": 195,
-          "y": 89,
-          "zOrder": 15,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 57,
-          "layer": "",
-          "name": "Barrel",
-          "persistentUuid": "75acbb2b-fd73-4fca-b4e5-1d9c8d194b1c",
-          "width": 49,
-          "x": 195,
-          "y": -6,
-          "zOrder": 15,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 57,
-          "layer": "",
-          "name": "Barrel",
-          "persistentUuid": "81f847c3-434c-44e6-bd23-68c9a05a9d0f",
-          "width": 49,
-          "x": 194,
-          "y": 23,
-          "zOrder": 15,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 57,
-          "layer": "",
-          "name": "Barrel",
-          "persistentUuid": "d251c271-7bb5-4f54-ba14-d91cee0d8bf5",
-          "width": 49,
-          "x": 196,
-          "y": 39,
-          "zOrder": 15,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 56,
-          "layer": "",
-          "name": "Barrel",
-          "persistentUuid": "4c62545c-46be-4c4e-a96d-855d0839efe0",
-          "width": 49,
-          "x": 194,
-          "y": 69,
-          "zOrder": 15,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -14383,12 +14284,177 @@
           "customSize": false,
           "height": 0,
           "layer": "",
-          "name": "NewSprite",
+          "name": "FlatBoy",
           "persistentUuid": "b3fd40a6-e9ff-406c-8e36-eea44a8bf076",
           "width": 0,
           "x": 54,
           "y": 321,
           "zOrder": 18,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 739,
+          "layer": "",
+          "name": "Rio",
+          "persistentUuid": "873e139d-04a0-4883-9b9f-1f56e43fe600",
+          "width": 248,
+          "x": 228,
+          "y": -6,
+          "zOrder": 19,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 264,
+          "layer": "",
+          "name": "BorderedHud",
+          "persistentUuid": "85565c7e-6290-4df0-8097-6e8d5f14427d",
+          "width": 200,
+          "x": 13,
+          "y": 14,
+          "zOrder": 21,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "",
+          "name": "Heart",
+          "persistentUuid": "54c745c8-101d-4c11-b7ae-b57f2d2c514c",
+          "width": 33,
+          "x": 48,
+          "y": 592,
+          "zOrder": 22,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 185,
+          "layer": "",
+          "name": "BorderedHud",
+          "persistentUuid": "0a524c98-25a5-4843-9604-0c84859029af",
+          "width": 200,
+          "x": 13,
+          "y": 524,
+          "zOrder": 21,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "",
+          "name": "Heart2",
+          "persistentUuid": "7ffcb083-46b9-4a22-9159-5df02847ca1f",
+          "width": 32,
+          "x": 96,
+          "y": 592,
+          "zOrder": 23,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "",
+          "name": "Heart3",
+          "persistentUuid": "c3f8fe5c-9232-4e3f-ad38-810b73c156fd",
+          "width": 32,
+          "x": 144,
+          "y": 592,
+          "zOrder": 24,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "",
+          "name": "NewBBText",
+          "persistentUuid": "4c5b3042-709f-47fc-a7c6-e025949a7996",
+          "width": 98,
+          "x": 48,
+          "y": 544,
+          "zOrder": 25,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 71,
+          "layer": "",
+          "name": "Penguin",
+          "persistentUuid": "f39b8ec2-0bff-41c8-80c9-b934b0734e60",
+          "width": 57,
+          "x": 580,
+          "y": 241,
+          "zOrder": 26,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 44,
+          "layer": "",
+          "name": "FireRoundButton",
+          "persistentUuid": "fb70014e-ac4c-4ba3-8109-f6f1b760b09e",
+          "width": 72,
+          "x": 1192,
+          "y": 362,
+          "zOrder": 27,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "izquierda",
+          "persistentUuid": "9af6f01d-dff7-43de-82a0-5e8ffaf6b624",
+          "width": 0,
+          "x": 1137,
+          "y": 354,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Background",
+          "name": "eliminar",
+          "persistentUuid": "7eff2a59-299c-4d2b-aff4-77a18c6f7611",
+          "width": 0,
+          "x": 54,
+          "y": 356,
+          "zOrder": 31,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -14698,7 +14764,7 @@
         },
         {
           "assetStoreId": "",
-          "name": "NewSprite",
+          "name": "FlatBoy",
           "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
@@ -14706,6 +14772,8 @@
           "effects": [],
           "behaviors": [
             {
+              "name": "TopDownMovement",
+              "type": "TopDownMovementBehavior::TopDownMovementBehavior",
               "acceleration": 400,
               "allowDiagonals": true,
               "angleOffset": 0,
@@ -14715,9 +14783,7 @@
               "ignoreDefaultControls": false,
               "maxSpeed": 200,
               "movementAngleOffset": 0,
-              "name": "TopDownMovement",
               "rotateObject": true,
-              "type": "TopDownMovementBehavior::TopDownMovementBehavior",
               "viewpoint": "TopDown"
             }
           ],
@@ -14990,9 +15056,1419 @@
               ]
             }
           ]
+        },
+        {
+          "assetStoreId": "afbeb7d1b67ec8b51b3370ddfd8c4aa1bd9b925ee58ead50767f44e2e444d7ba",
+          "bottomMargin": 32,
+          "height": 96,
+          "leftMargin": 32,
+          "name": "BorderedHud",
+          "rightMargin": 32,
+          "tags": "",
+          "texture": "9patch_Bordered Hud_all_32.png",
+          "tiled": true,
+          "topMargin": 32,
+          "type": "PanelSpriteObject::PanelSprite",
+          "width": 96,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "assetStoreId": "c191f00ad12c64c4512408c4954a6be70dc61ccc8da3bdf05387b2e79eeed741",
+          "name": "Heart",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Heart.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "c191f00ad12c64c4512408c4954a6be70dc61ccc8da3bdf05387b2e79eeed741",
+          "name": "Heart2",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Heart.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "c191f00ad12c64c4512408c4954a6be70dc61ccc8da3bdf05387b2e79eeed741",
+          "name": "Heart3",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Heart.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "NewBBText",
+          "tags": "",
+          "type": "BBText::BBText",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "text": "[spacing=12]AWKI[/spacing]\n",
+            "opacity": 255,
+            "fontSize": 20,
+            "visible": true,
+            "color": "0;0;0",
+            "fontFamily": "Arial",
+            "align": "left",
+            "wordWrap": true
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": true,
+          "name": "Coin",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "100",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 20,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
+        },
+        {
+          "assetStoreId": "7cb3c7d392847d6fc12886b9d9a8e11d2995cbce59854efadc3b957ed67cb61f",
+          "name": "Penguin",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Idle",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.2,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Penguin_Idle_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Penguin_Idle_2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Penguin_Idle_3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Penguin_Idle_4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Penguin_Idle_5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Jump",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Penguin_Jump.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Hurt",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Penguin_Hurt.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Belly Sliding",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.3333,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Penguin_Belly Sliding_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Penguin_Belly Sliding_2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Penguin_Belly Sliding_3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Blink",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Penguin_Blink.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Ducking",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Penguin_Ducking.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Falling",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Penguin_Falling.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Looking Off",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Penguin_Looking Off.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Looking Up",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.5,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Penguin_Looking Up_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Penguin_Looking Up_2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Lying On Ground",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Penguin_Lying On Ground.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Sitting",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.5,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Penguin_Sitting_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Penguin_Sitting_2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Standing",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Penguin_Standing.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Surprised",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Penguin_Surprised.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Swimming",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.25,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Penguin_Swimming_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Penguin_Swimming_2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Penguin_Swimming_3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Penguin_Swimming_4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Victory Dance",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.2,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Penguin_Victory Dance_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Penguin_Victory Dance_2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Penguin_Victory Dance_3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Penguin_Victory Dance_4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Penguin_Victory Dance_5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Waddling",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.1667,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Penguin_Waddling_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Penguin_Waddling_2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Penguin_Waddling_3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Penguin_Waddling_4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Penguin_Waddling_5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Penguin_Waddling_6.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "b566c4946296cbfd3dd9fda66484059c0db2f4a54a721be5e315b071b3b1abd1",
+          "name": "GenericBall1",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Generic ball (1).png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "7a8bbf52d82b960e1e6cd515ee43b8b11d786356d7d1d178740790bb9ae863c4",
+          "name": "Aristocrat2",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "ObjectSpawner",
+              "type": "ObjectSpawner::ObjectSpawner",
+              "SpawnPeriod": 1,
+              "OffsetX": 0,
+              "OffsetY": 0,
+              "JustSpawnedAnObject": false,
+              "MaxQuantityReached": false,
+              "MaxQuantity": 0
+            }
+          ],
+          "animations": [
+            {
+              "name": "Idle",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.25,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Aristocrat2_Idle_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Aristocrat2_Idle_2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Aristocrat2_Idle_3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Aristocrat2_Idle_4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "11521f9e3de9c1bbc2ce041a94e79b1e6c0f0415e936ec2227c12031660c1824",
+          "name": "FireRoundButton",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "ObjectSpawner",
+              "type": "ObjectSpawner::ObjectSpawner",
+              "SpawnPeriod": 4,
+              "OffsetX": 15,
+              "OffsetY": 15,
+              "JustSpawnedAnObject": false,
+              "MaxQuantityReached": false,
+              "MaxQuantity": 5
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Fire round button.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "11521f9e3de9c1bbc2ce041a94e79b1e6c0f0415e936ec2227c12031660c1824",
+          "name": "izquierda",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "ObjectSpawner",
+              "type": "ObjectSpawner::ObjectSpawner",
+              "SpawnPeriod": 5,
+              "OffsetX": 0,
+              "OffsetY": 0,
+              "JustSpawnedAnObject": false,
+              "MaxQuantityReached": false,
+              "MaxQuantity": 5
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Fire round button.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "b722f464e108a0caad5e94648cfcd7d2dbb7d199cf7f2adf66f22b167579378b",
+          "name": "eliminar",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Cross.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "ObjectSpawner::ObjectSpawner::SpawnObject"
+              },
+              "parameters": [
+                "FireRoundButton",
+                "ObjectSpawner",
+                "Aristocrat2",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Aristocrat2",
+                "izquierda",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarObjetTxt"
+              },
+              "parameters": [
+                "Aristocrat2",
+                "direccion",
+                "=",
+                "\"izquierda\""
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangeHeight"
+              },
+              "parameters": [
+                "Aristocrat2",
+                "=",
+                "65"
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangeWidth"
+              },
+              "parameters": [
+                "Aristocrat2",
+                "=",
+                "60"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarObjetTxt"
+              },
+              "parameters": [
+                "Aristocrat2",
+                "direccion",
+                "=",
+                "\"izquierda\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AddForceAL"
+              },
+              "parameters": [
+                "Aristocrat2",
+                "180",
+                "90",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Aristocrat2",
+                "eliminar",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Aristocrat2",
+                ""
+              ]
+            }
+          ]
+        },
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
@@ -15008,11 +16484,11 @@
           "actions": [
             {
               "type": {
-                "value": "ChangeColor"
+                "value": "FlipX"
               },
               "parameters": [
-                "fondo2",
-                "\"114;101;101\""
+                "Penguin",
+                "yes"
               ]
             }
           ]
@@ -15022,161 +16498,163 @@
           "conditions": [
             {
               "type": {
-                "value": "AnyKeyReleased"
+                "value": "VarScene"
               },
               "parameters": [
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "GlobalVariableAsBoolean"
-              },
-              "parameters": [
-                "narrativa",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "BBText::SetBBText"
-              },
-              "parameters": [
-                "NewBBText",
+                "Dano",
                 "=",
-                "\"[spacing=12]cambio1111[/spacing]\""
+                "0"
               ]
             },
-            {
-              "type": {
-                "value": "SetGlobalVariableAsBoolean"
-              },
-              "parameters": [
-                "narrativa",
-                "True"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "AnyKeyPressed"
-              },
-              "parameters": [
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "GlobalVariableAsBoolean"
-              },
-              "parameters": [
-                "narrativa",
-                "True"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "BBText::SetBBText"
-              },
-              "parameters": [
-                "NewBBText",
-                "=",
-                "\"[spacing=12]cambio222[/spacing]\""
-              ]
-            },
-            {
-              "type": {
-                "value": "SetGlobalVariableAsBoolean"
-              },
-              "parameters": [
-                "camina",
-                "True"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
             {
               "type": {
                 "value": "CollisionNP"
               },
               "parameters": [
                 "FlatBoy",
-                "derecha",
+                "Aristocrat2",
                 "",
                 "",
                 ""
-              ]
-            },
-            {
-              "type": {
-                "value": "GlobalVariableAsBoolean"
-              },
-              "parameters": [
-                "camina",
-                "True"
               ]
             }
           ],
           "actions": [
             {
               "type": {
-                "value": "ModVarObjetTxt"
+                "value": "ModVarScene"
               },
               "parameters": [
-                "FlatBoy",
-                "direccion",
-                "=",
-                "\"derecha\""
+                "Vida",
+                "+",
+                "1"
               ]
             },
             {
               "type": {
-                "value": "ChangeAnimation"
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "Dano",
+                "=",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarScene"
+              },
+              "parameters": [
+                "Dano",
+                "=",
+                "1"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Opacity"
               },
               "parameters": [
                 "FlatBoy",
+                "=",
+                "150"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "FlatBoy",
+                "Aristocrat2",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "Dano",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "Opacity"
+              },
+              "parameters": [
+                "FlatBoy",
+                "=",
+                "300"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarScene"
+              },
+              "parameters": [
+                "Vida",
+                "=",
+                "1"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "Heart3"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarScene"
+              },
+              "parameters": [
+                "Vida",
                 "=",
                 "2"
               ]
             }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "VarObjetTxt"
-              },
-              "parameters": [
-                "FlatBoy",
-                "direccion",
-                "=",
-                "\"derecha\""
-              ]
-            }
           ],
           "actions": [
             {
               "type": {
-                "value": "AddForceAL"
+                "value": "Cache"
               },
               "parameters": [
-                "FlatBoy",
-                "0",
-                "90",
-                ""
+                "Heart2"
               ]
             }
           ]
@@ -15186,14 +16664,12 @@
           "conditions": [
             {
               "type": {
-                "value": "CollisionNP"
+                "value": "VarScene"
               },
               "parameters": [
-                "FlatBoy",
-                "termina",
-                "",
-                "",
-                ""
+                "Vida",
+                "=",
+                "3"
               ]
             }
           ],
@@ -15204,7 +16680,7 @@
               },
               "parameters": [
                 "",
-                "\"game\"",
+                "\"menu\"",
                 ""
               ]
             }
@@ -15212,6 +16688,17 @@
         }
       ],
       "layers": [
+        {
+          "ambientLightColorB": 150995058,
+          "ambientLightColorG": 6069792,
+          "ambientLightColorR": 13059184,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "Background",
+          "visibility": true,
+          "cameras": [],
+          "effects": []
+        },
         {
           "ambientLightColorB": 16633016,
           "ambientLightColorG": 150995054,
@@ -15237,8 +16724,12 @@
       ],
       "behaviorsSharedData": [
         {
-          "name": "BBText_AutoTyping",
-          "type": "AutoTyping::BBText_AutoTyping"
+          "name": "ObjectSpawner",
+          "type": "ObjectSpawner::ObjectSpawner"
+        },
+        {
+          "name": "TopDownMovement",
+          "type": "TopDownMovementBehavior::TopDownMovementBehavior"
         }
       ]
     }
@@ -15252,1627 +16743,6 @@
     }
   ],
   "eventsFunctionsExtensions": [
-    {
-      "author": "",
-      "category": "User interface",
-      "extensionNamespace": "",
-      "fullName": "Resource bar (separated units)",
-      "helpPath": "/objects/resource-bar",
-      "iconUrl": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0ibWRpLWRvdHMtaG9yaXpvbnRhbCIgd2lkdGg9IjI0IiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGQ9Ik0xNiwxMkEyLDIgMCAwLDEgMTgsMTBBMiwyIDAgMCwxIDIwLDEyQTIsMiAwIDAsMSAxOCwxNEEyLDIgMCAwLDEgMTYsMTJNMTAsMTJBMiwyIDAgMCwxIDEyLDEwQTIsMiAwIDAsMSAxNCwxMkEyLDIgMCAwLDEgMTIsMTRBMiwyIDAgMCwxIDEwLDEyTTQsMTJBMiwyIDAgMCwxIDYsMTBBMiwyIDAgMCwxIDgsMTJBMiwyIDAgMCwxIDYsMTRBMiwyIDAgMCwxIDQsMTJaIiAvPjwvc3ZnPg==",
-      "name": "TiledUnitsBar",
-      "previewIconUrl": "https://asset-resources.gdevelop.io/public-resources/Icons/063e9152cf65bc0f3be2a828afd950c3ecf1b1fc72feefdc2467252fe987dc0f_dots-horizontal.svg",
-      "shortDescription": "A bar that represents a resource in the game (health, mana, ammo, etc).",
-      "version": "1.1.2",
-      "description": [
-        "A bar that represents a resource in the game (health, mana, ammo, etc).",
-        "",
-        "There are ready-to-use resource bars in the asset-store [resource bars pack](https://editor.gdevelop.io/?initial-dialog=asset-store&asset-pack=resource-bars-resource-bars)."
-      ],
-      "origin": {
-        "identifier": "TiledUnitsBar",
-        "name": "gdevelop-extension-store"
-      },
-      "tags": [
-        "resource",
-        "bar",
-        "health",
-        "mana",
-        "shield",
-        "hearts",
-        "lives",
-        "ammo"
-      ],
-      "authorIds": [
-        "IWykYNRvhCZBN3vEgKEbBPOR3Oc2",
-        "gqDaZjCfevOOxBYkK6zlhtZnXCg1",
-        "q8ubdigLvIRXLxsJDDTaokO41mc2"
-      ],
-      "dependencies": [],
-      "eventsFunctions": [],
-      "eventsBasedBehaviors": [
-        {
-          "description": "A bar that represents a resource in the game (health, mana, ammo, etc).",
-          "fullName": "Resource bar",
-          "name": "ResourceBar",
-          "objectType": "",
-          "private": true,
-          "eventsFunctions": [
-            {
-              "fullName": "",
-              "functionType": "Action",
-              "name": "doStepPostEvents",
-              "sentence": "",
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Comment",
-                  "color": {
-                    "b": 109,
-                    "g": 230,
-                    "r": 255,
-                    "textB": 0,
-                    "textG": 0,
-                    "textR": 0
-                  },
-                  "comment": "This is done after the events to allow users to read the previous value at the end of the change.",
-                  "comment2": ""
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "inverted": true,
-                        "value": "CompareObjectTimer"
-                      },
-                      "parameters": [
-                        "Object",
-                        "\"__ResourceBar.LastValueChange\"",
-                        "<=",
-                        "Object.Behavior::PropertyPreviousHighValueDuration()"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "TiledUnitsBar::ResourceBar::UpdatePreviousHighValue"
-                      },
-                      "parameters": [
-                        "Object",
-                        "Behavior",
-                        "="
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "parameters": [
-                {
-                  "description": "Object",
-                  "name": "Object",
-                  "type": "object"
-                },
-                {
-                  "description": "Behavior",
-                  "name": "Behavior",
-                  "supplementaryInformation": "TiledUnitsBar::ResourceBar",
-                  "type": "behavior"
-                }
-              ],
-              "objectGroups": []
-            },
-            {
-              "description": "the value of the object.",
-              "fullName": "Value",
-              "functionType": "ExpressionAndCondition",
-              "name": "Value",
-              "sentence": "the value",
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "SetReturnNumber"
-                      },
-                      "parameters": [
-                        "Object.Behavior::PropertyValue()"
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "expressionType": {
-                "type": "expression"
-              },
-              "parameters": [
-                {
-                  "description": "Object",
-                  "name": "Object",
-                  "type": "object"
-                },
-                {
-                  "description": "Behavior",
-                  "name": "Behavior",
-                  "supplementaryInformation": "TiledUnitsBar::ResourceBar",
-                  "type": "behavior"
-                }
-              ],
-              "objectGroups": []
-            },
-            {
-              "fullName": "",
-              "functionType": "ActionWithOperator",
-              "getterName": "Value",
-              "name": "SetValue",
-              "sentence": "",
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "TiledUnitsBar::ResourceBar::SetPropertyValue"
-                      },
-                      "parameters": [
-                        "Object",
-                        "Behavior",
-                        "=",
-                        "clamp(GetArgumentAsNumber(\"Value\"), 0, Object.Behavior::MaxValue())"
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "TiledUnitsBar::ResourceBar::PropertyValue"
-                      },
-                      "parameters": [
-                        "Object",
-                        "Behavior",
-                        "<",
-                        "Object.Behavior::PreviousHighValue()"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "ResetObjectTimer"
-                      },
-                      "parameters": [
-                        "Object",
-                        "\"__ResourceBar.LastValueChange\""
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "TiledUnitsBar::ResourceBar::PropertyValue"
-                      },
-                      "parameters": [
-                        "Object",
-                        "Behavior",
-                        ">=",
-                        "Object.Behavior::PropertyPreviousHighValue()"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "TiledUnitsBar::ResourceBar::UpdatePreviousHighValue"
-                      },
-                      "parameters": [
-                        "Object",
-                        "Behavior",
-                        ""
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "parameters": [
-                {
-                  "description": "Object",
-                  "name": "Object",
-                  "type": "object"
-                },
-                {
-                  "description": "Behavior",
-                  "name": "Behavior",
-                  "supplementaryInformation": "TiledUnitsBar::ResourceBar",
-                  "type": "behavior"
-                }
-              ],
-              "objectGroups": []
-            },
-            {
-              "description": "the maximum value of the object.",
-              "fullName": "Maximum value",
-              "functionType": "ExpressionAndCondition",
-              "group": "Resource bar configuration",
-              "name": "MaxValue",
-              "sentence": "the maximum value",
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "SetReturnNumber"
-                      },
-                      "parameters": [
-                        "Object.Behavior::PropertyMaxValue()"
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "expressionType": {
-                "type": "expression"
-              },
-              "parameters": [
-                {
-                  "description": "Object",
-                  "name": "Object",
-                  "type": "object"
-                },
-                {
-                  "description": "Behavior",
-                  "name": "Behavior",
-                  "supplementaryInformation": "TiledUnitsBar::ResourceBar",
-                  "type": "behavior"
-                }
-              ],
-              "objectGroups": []
-            },
-            {
-              "fullName": "",
-              "functionType": "ActionWithOperator",
-              "getterName": "MaxValue",
-              "name": "SetMaxValue",
-              "sentence": "",
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "TiledUnitsBar::ResourceBar::SetPropertyMaxValue"
-                      },
-                      "parameters": [
-                        "Object",
-                        "Behavior",
-                        "=",
-                        "GetArgumentAsNumber(\"Value\")"
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "parameters": [
-                {
-                  "description": "Object",
-                  "name": "Object",
-                  "type": "object"
-                },
-                {
-                  "description": "Behavior",
-                  "name": "Behavior",
-                  "supplementaryInformation": "TiledUnitsBar::ResourceBar",
-                  "type": "behavior"
-                }
-              ],
-              "objectGroups": []
-            },
-            {
-              "description": "Check if the bar is empty.",
-              "fullName": "Empty",
-              "functionType": "Condition",
-              "name": "IsEmpty",
-              "sentence": "_PARAM0_ bar is empty",
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "TiledUnitsBar::ResourceBar::PropertyValue"
-                      },
-                      "parameters": [
-                        "Object",
-                        "Behavior",
-                        "=",
-                        "0"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "SetReturnBoolean"
-                      },
-                      "parameters": [
-                        "True"
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "parameters": [
-                {
-                  "description": "Object",
-                  "name": "Object",
-                  "type": "object"
-                },
-                {
-                  "description": "Behavior",
-                  "name": "Behavior",
-                  "supplementaryInformation": "TiledUnitsBar::ResourceBar",
-                  "type": "behavior"
-                }
-              ],
-              "objectGroups": []
-            },
-            {
-              "description": "Check if the bar is full.",
-              "fullName": "Full",
-              "functionType": "Condition",
-              "name": "IsFull",
-              "sentence": "_PARAM0_ bar is full",
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "TiledUnitsBar::ResourceBar::PropertyValue"
-                      },
-                      "parameters": [
-                        "Object",
-                        "Behavior",
-                        "=",
-                        "Object.Behavior::PropertyMaxValue()"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "SetReturnBoolean"
-                      },
-                      "parameters": [
-                        "True"
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "parameters": [
-                {
-                  "description": "Object",
-                  "name": "Object",
-                  "type": "object"
-                },
-                {
-                  "description": "Behavior",
-                  "name": "Behavior",
-                  "supplementaryInformation": "TiledUnitsBar::ResourceBar",
-                  "type": "behavior"
-                }
-              ],
-              "objectGroups": []
-            },
-            {
-              "description": "the previous high value of the resource bar before the current change.",
-              "fullName": "Previous high value",
-              "functionType": "ExpressionAndCondition",
-              "name": "PreviousHighValue",
-              "sentence": "the previous high value",
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "SetReturnNumber"
-                      },
-                      "parameters": [
-                        "Object.Behavior::PropertyPreviousHighValue()"
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "expressionType": {
-                "type": "expression"
-              },
-              "parameters": [
-                {
-                  "description": "Object",
-                  "name": "Object",
-                  "type": "object"
-                },
-                {
-                  "description": "Behavior",
-                  "name": "Behavior",
-                  "supplementaryInformation": "TiledUnitsBar::ResourceBar",
-                  "type": "behavior"
-                }
-              ],
-              "objectGroups": []
-            },
-            {
-              "description": "Force the previous resource value to update to the current one.",
-              "fullName": "Update previous value",
-              "functionType": "Action",
-              "name": "UpdatePreviousHighValue",
-              "sentence": "Update the previous resource value of _PARAM0_",
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "TiledUnitsBar::ResourceBar::SetPropertyPreviousHighValue"
-                      },
-                      "parameters": [
-                        "Object",
-                        "Behavior",
-                        "=",
-                        "Object.Behavior::PropertyValue()"
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "parameters": [
-                {
-                  "description": "Object",
-                  "name": "Object",
-                  "type": "object"
-                },
-                {
-                  "description": "Behavior",
-                  "name": "Behavior",
-                  "supplementaryInformation": "TiledUnitsBar::ResourceBar",
-                  "type": "behavior"
-                }
-              ],
-              "objectGroups": []
-            },
-            {
-              "description": "the previous high value conservation duration (in seconds) of the object.",
-              "fullName": "Previous high value conservation duration",
-              "functionType": "ExpressionAndCondition",
-              "group": "Resource bar configuration",
-              "name": "PreviousHighValueDuration",
-              "sentence": "the previous high value conservation duration",
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "SetReturnNumber"
-                      },
-                      "parameters": [
-                        "Object.Behavior::PropertyPreviousHighValueDuration()"
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "expressionType": {
-                "type": "expression"
-              },
-              "parameters": [
-                {
-                  "description": "Object",
-                  "name": "Object",
-                  "type": "object"
-                },
-                {
-                  "description": "Behavior",
-                  "name": "Behavior",
-                  "supplementaryInformation": "TiledUnitsBar::ResourceBar",
-                  "type": "behavior"
-                }
-              ],
-              "objectGroups": []
-            },
-            {
-              "fullName": "",
-              "functionType": "ActionWithOperator",
-              "getterName": "PreviousHighValueDuration",
-              "name": "SetPreviousHighValueDuration",
-              "sentence": "",
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "TiledUnitsBar::ResourceBar::SetPropertyPreviousHighValueDuration"
-                      },
-                      "parameters": [
-                        "Object",
-                        "Behavior",
-                        "=",
-                        "GetArgumentAsNumber(\"Value\")"
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "parameters": [
-                {
-                  "description": "Object",
-                  "name": "Object",
-                  "type": "object"
-                },
-                {
-                  "description": "Behavior",
-                  "name": "Behavior",
-                  "supplementaryInformation": "TiledUnitsBar::ResourceBar",
-                  "type": "behavior"
-                }
-              ],
-              "objectGroups": []
-            },
-            {
-              "description": "Check if the resource value is changing.",
-              "fullName": "Value is changing",
-              "functionType": "Condition",
-              "name": "IsChanging",
-              "sentence": "_PARAM0_ value is changing",
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "TiledUnitsBar::ResourceBar::PreviousHighValue"
-                      },
-                      "parameters": [
-                        "Object",
-                        "Behavior",
-                        "!=",
-                        "Object.Behavior::PropertyValue()",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "CompareObjectTimer"
-                      },
-                      "parameters": [
-                        "Object",
-                        "\"__ResourceBar.LastValueChange\"",
-                        "<=",
-                        "Object.Behavior::PropertyPreviousHighValueDuration()"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "SetReturnBoolean"
-                      },
-                      "parameters": [
-                        "True"
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "parameters": [
-                {
-                  "description": "Object",
-                  "name": "Object",
-                  "type": "object"
-                },
-                {
-                  "description": "Behavior",
-                  "name": "Behavior",
-                  "supplementaryInformation": "TiledUnitsBar::ResourceBar",
-                  "type": "behavior"
-                }
-              ],
-              "objectGroups": []
-            }
-          ],
-          "propertyDescriptors": [
-            {
-              "value": "1",
-              "type": "Number",
-              "label": "Value",
-              "description": "",
-              "group": "",
-              "extraInformation": [],
-              "hidden": false,
-              "name": "Value"
-            },
-            {
-              "value": "3",
-              "type": "Number",
-              "label": "Maximum value",
-              "description": "",
-              "group": "",
-              "extraInformation": [],
-              "hidden": false,
-              "name": "MaxValue"
-            },
-            {
-              "value": "",
-              "type": "Number",
-              "label": "Previous high value",
-              "description": "",
-              "group": "",
-              "extraInformation": [],
-              "hidden": true,
-              "name": "PreviousHighValue"
-            },
-            {
-              "value": "1",
-              "type": "Number",
-              "label": "Previous high value conservation duration (in seconds)",
-              "description": "",
-              "group": "",
-              "extraInformation": [],
-              "hidden": false,
-              "name": "PreviousHighValueDuration"
-            }
-          ],
-          "sharedPropertyDescriptors": []
-        }
-      ],
-      "eventsBasedObjects": [
-        {
-          "defaultName": "ResourceBar",
-          "description": "A bar that represents a resource in the game (health, mana, ammo, etc).",
-          "fullName": "Resource bar (separated units)",
-          "name": "TiledUnitsBar",
-          "eventsFunctions": [
-            {
-              "fullName": "",
-              "functionType": "Action",
-              "name": "onCreated",
-              "sentence": "",
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Comment",
-                  "color": {
-                    "b": 109,
-                    "g": 230,
-                    "r": 255,
-                    "textB": 0,
-                    "textG": 0,
-                    "textR": 0
-                  },
-                  "comment": "This allows to detect a change of \"intial value\" on hot reload.",
-                  "comment2": ""
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "TiledUnitsBar::TiledUnitsBar::SetPropertyPreviousInitialValue"
-                      },
-                      "parameters": [
-                        "Object",
-                        "=",
-                        "Object.PropertyInitialValue()"
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Comment",
-                  "color": {
-                    "b": 109,
-                    "g": 230,
-                    "r": 255,
-                    "textB": 0,
-                    "textG": 0,
-                    "textR": 0
-                  },
-                  "comment": "Create the child-object instances.",
-                  "comment2": ""
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "Create"
-                      },
-                      "parameters": [
-                        "",
-                        "Background",
-                        "0",
-                        "0",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Create"
-                      },
-                      "parameters": [
-                        "",
-                        "Bar",
-                        "0",
-                        "0",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Create"
-                      },
-                      "parameters": [
-                        "",
-                        "FillBar",
-                        "0",
-                        "0",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "ChangePlan"
-                      },
-                      "parameters": [
-                        "Background",
-                        "=",
-                        "1"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "ChangePlan"
-                      },
-                      "parameters": [
-                        "Bar",
-                        "=",
-                        "2"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "ChangePlan"
-                      },
-                      "parameters": [
-                        "FillBar",
-                        "=",
-                        "3"
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "inverted": true,
-                        "value": "TiledUnitsBar::TiledUnitsBar::PropertyShowBackground"
-                      },
-                      "parameters": [
-                        "Object"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "Cache"
-                      },
-                      "parameters": [
-                        "Background"
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Comment",
-                  "color": {
-                    "b": 109,
-                    "g": 230,
-                    "r": 255,
-                    "textB": 0,
-                    "textG": 0,
-                    "textR": 0
-                  },
-                  "comment": "Pass the configuration to the behavior (MaxValue must be set before Value).",
-                  "comment2": ""
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "TiledUnitsBar::TiledUnitsBar::SetMaxValue"
-                      },
-                      "parameters": [
-                        "Object",
-                        "=",
-                        "Object.PropertyMaxValue()",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "TiledUnitsBar::TiledUnitsBar::SetValue"
-                      },
-                      "parameters": [
-                        "Object",
-                        "=",
-                        "Object.PropertyInitialValue()",
-                        ""
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "parameters": [
-                {
-                  "description": "Object",
-                  "name": "Object",
-                  "supplementaryInformation": "TiledUnitsBar::TiledUnitsBar",
-                  "type": "object"
-                }
-              ],
-              "objectGroups": []
-            },
-            {
-              "fullName": "",
-              "functionType": "Action",
-              "name": "onHotReloading",
-              "sentence": "",
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "TiledUnitsBar::TiledUnitsBar::CenterBar"
-                      },
-                      "parameters": [
-                        "Object",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "TiledUnitsBar::TiledUnitsBar::SetMaxValue"
-                      },
-                      "parameters": [
-                        "Object",
-                        "=",
-                        "Object.PropertyMaxValue()",
-                        "Object.PropertyMaxValue()"
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "TiledUnitsBar::TiledUnitsBar::PropertyInitialValue"
-                      },
-                      "parameters": [
-                        "Object",
-                        "!=",
-                        "Object.PropertyPreviousInitialValue()"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "TiledUnitsBar::TiledUnitsBar::SetPropertyPreviousInitialValue"
-                      },
-                      "parameters": [
-                        "Object",
-                        "=",
-                        "Object.PropertyInitialValue()"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "TiledUnitsBar::TiledUnitsBar::SetValue"
-                      },
-                      "parameters": [
-                        "Object",
-                        "=",
-                        "Object.PropertyInitialValue()",
-                        "Object.PropertyInitialValue()"
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "parameters": [
-                {
-                  "description": "Object",
-                  "name": "Object",
-                  "supplementaryInformation": "TiledUnitsBar::TiledUnitsBar",
-                  "type": "object"
-                }
-              ],
-              "objectGroups": []
-            },
-            {
-              "fullName": "",
-              "functionType": "Action",
-              "name": "doStepPostEvents",
-              "sentence": "",
-              "events": [
-                {
-                  "colorB": 228,
-                  "colorG": 176,
-                  "colorR": 74,
-                  "creationTime": 0,
-                  "name": "Resize",
-                  "source": "",
-                  "type": "BuiltinCommonInstructions::Group",
-                  "events": [
-                    {
-                      "type": "BuiltinCommonInstructions::Comment",
-                      "color": {
-                        "b": 109,
-                        "g": 230,
-                        "r": 255,
-                        "textB": 0,
-                        "textG": 0,
-                        "textR": 0
-                      },
-                      "comment": "Children instances must be resized when the button size change:\n- background is resized to take the full dimensions of the button\n- the bar size is refreshed according to the value\n\nThe scale is set back to 1 because it means that the parent instance has the same dimensions as the union of its children instances.",
-                      "comment2": ""
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "BuiltinCommonInstructions::Or"
-                          },
-                          "parameters": [],
-                          "subInstructions": [
-                            {
-                              "type": {
-                                "value": "BuiltinCommonInstructions::CompareNumbers"
-                              },
-                              "parameters": [
-                                "Object.Width()",
-                                "!=",
-                                "max(Background.BoundingBoxRight(), Bar.BoundingBoxRight()) - min(Background.BoundingBoxLeft(), Bar.BoundingBoxLeft())"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "BuiltinCommonInstructions::CompareNumbers"
-                              },
-                              "parameters": [
-                                "Object.Height()",
-                                "!=",
-                                "max(Background.BoundingBoxBottom(), Bar.BoundingBoxBottom()) - min(Background.BoundingBoxTop(), Bar.BoundingBoxTop())"
-                              ]
-                            }
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "ModVarObjet"
-                          },
-                          "parameters": [
-                            "Background",
-                            "Width",
-                            "=",
-                            "Object.Width()"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "ModVarObjet"
-                          },
-                          "parameters": [
-                            "Background",
-                            "Height",
-                            "=",
-                            "Object.Height()"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "TiledUnitsBar::Scale"
-                          },
-                          "parameters": [
-                            "Object",
-                            "=",
-                            "1"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "PanelSpriteObject::Width"
-                          },
-                          "parameters": [
-                            "Background",
-                            "=",
-                            "Background.Variable(Width)"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "PanelSpriteObject::Height"
-                          },
-                          "parameters": [
-                            "Background",
-                            "=",
-                            "Background.Variable(Height)"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "TiledUnitsBar::TiledUnitsBar::CenterBar"
-                          },
-                          "parameters": [
-                            "Object",
-                            ""
-                          ]
-                        }
-                      ]
-                    }
-                  ],
-                  "parameters": []
-                }
-              ],
-              "parameters": [
-                {
-                  "description": "Object",
-                  "name": "Object",
-                  "supplementaryInformation": "TiledUnitsBar::TiledUnitsBar",
-                  "type": "object"
-                }
-              ],
-              "objectGroups": []
-            },
-            {
-              "description": "Center the bar according to the button configuration. This is used in doStepPostEvents when the button is resized.",
-              "fullName": "",
-              "functionType": "Action",
-              "name": "CenterBar",
-              "private": true,
-              "sentence": "Center the bar of _PARAM0_",
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "SetCenter"
-                      },
-                      "parameters": [
-                        "Bar",
-                        "=",
-                        "Background.CenterX()",
-                        "=",
-                        "Background.CenterY()"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "MettreX"
-                      },
-                      "parameters": [
-                        "Bar",
-                        "+",
-                        "0"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "MettreY"
-                      },
-                      "parameters": [
-                        "Bar",
-                        "+",
-                        "0"
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "MettreXY"
-                      },
-                      "parameters": [
-                        "FillBar",
-                        "=",
-                        "Bar.X()",
-                        "=",
-                        "Bar.Y()"
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "parameters": [
-                {
-                  "description": "Object",
-                  "name": "Object",
-                  "supplementaryInformation": "TiledUnitsBar::TiledUnitsBar",
-                  "type": "object"
-                }
-              ],
-              "objectGroups": []
-            },
-            {
-              "description": "the value of the object.",
-              "fullName": "Value",
-              "functionType": "ExpressionAndCondition",
-              "group": "Resource bar",
-              "name": "Value",
-              "sentence": "the value",
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "SetReturnNumber"
-                      },
-                      "parameters": [
-                        "FillBar.ResourceBar::Value()"
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "expressionType": {
-                "type": "expression"
-              },
-              "parameters": [
-                {
-                  "description": "Object",
-                  "name": "Object",
-                  "supplementaryInformation": "TiledUnitsBar::TiledUnitsBar",
-                  "type": "object"
-                }
-              ],
-              "objectGroups": []
-            },
-            {
-              "fullName": "",
-              "functionType": "ActionWithOperator",
-              "getterName": "Value",
-              "name": "SetValue",
-              "sentence": "",
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "TiledUnitsBar::ResourceBar::SetValue"
-                      },
-                      "parameters": [
-                        "FillBar",
-                        "ResourceBar",
-                        "=",
-                        "GetArgumentAsNumber(\"Value\")",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "TiledSpriteObject::Width"
-                      },
-                      "parameters": [
-                        "FillBar",
-                        "=",
-                        "FillBar.ResourceBar::Value() * Object.PropertyUnitWidth()"
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "parameters": [
-                {
-                  "description": "Object",
-                  "name": "Object",
-                  "supplementaryInformation": "TiledUnitsBar::TiledUnitsBar",
-                  "type": "object"
-                },
-                {
-                  "description": "Behavior",
-                  "name": "Behavior",
-                  "supplementaryInformation": "TiledUnitsBar::ResourceBar",
-                  "type": "behavior"
-                }
-              ],
-              "objectGroups": []
-            },
-            {
-              "description": "the maximum value of the object.",
-              "fullName": "Maximum value",
-              "functionType": "ExpressionAndCondition",
-              "group": "Resource bar configuration",
-              "name": "MaxValue",
-              "sentence": "the maximum value",
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "SetReturnNumber"
-                      },
-                      "parameters": [
-                        "FillBar.ResourceBar::PropertyMaxValue()"
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "expressionType": {
-                "type": "expression"
-              },
-              "parameters": [
-                {
-                  "description": "Object",
-                  "name": "Object",
-                  "supplementaryInformation": "TiledUnitsBar::TiledUnitsBar",
-                  "type": "object"
-                }
-              ],
-              "objectGroups": []
-            },
-            {
-              "fullName": "",
-              "functionType": "ActionWithOperator",
-              "getterName": "MaxValue",
-              "name": "SetMaxValue",
-              "sentence": "",
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "TiledUnitsBar::ResourceBar::SetMaxValue"
-                      },
-                      "parameters": [
-                        "FillBar",
-                        "ResourceBar",
-                        "=",
-                        "GetArgumentAsNumber(\"Value\")",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "TiledSpriteObject::Width"
-                      },
-                      "parameters": [
-                        "Bar",
-                        "=",
-                        "Object.PropertyMaxValue() * Object.PropertyUnitWidth()"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "TiledUnitsBar::TiledUnitsBar::CenterBar"
-                      },
-                      "parameters": [
-                        "Object",
-                        ""
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "parameters": [
-                {
-                  "description": "Object",
-                  "name": "Object",
-                  "supplementaryInformation": "TiledUnitsBar::TiledUnitsBar",
-                  "type": "object"
-                },
-                {
-                  "description": "Behavior",
-                  "name": "Behavior",
-                  "supplementaryInformation": "TiledUnitsBar::ResourceBar",
-                  "type": "behavior"
-                }
-              ],
-              "objectGroups": []
-            },
-            {
-              "description": "Check if the bar is empty.",
-              "fullName": "Empty",
-              "functionType": "Condition",
-              "group": "Resource bar",
-              "name": "IsEmpty",
-              "sentence": "_PARAM0_ bar is empty",
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "TiledUnitsBar::ResourceBar::IsEmpty"
-                      },
-                      "parameters": [
-                        "FillBar",
-                        "ResourceBar",
-                        "="
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "SetReturnBoolean"
-                      },
-                      "parameters": [
-                        "True"
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "parameters": [
-                {
-                  "description": "Object",
-                  "name": "Object",
-                  "supplementaryInformation": "TiledUnitsBar::TiledUnitsBar",
-                  "type": "object"
-                }
-              ],
-              "objectGroups": []
-            },
-            {
-              "description": "Check if the bar is full.",
-              "fullName": "Full",
-              "functionType": "Condition",
-              "group": "Resource bar",
-              "name": "IsFull",
-              "sentence": "_PARAM0_ bar is full",
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "TiledUnitsBar::ResourceBar::IsFull"
-                      },
-                      "parameters": [
-                        "FillBar",
-                        "ResourceBar",
-                        "="
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "SetReturnBoolean"
-                      },
-                      "parameters": [
-                        "True"
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "parameters": [
-                {
-                  "description": "Object",
-                  "name": "Object",
-                  "supplementaryInformation": "TiledUnitsBar::TiledUnitsBar",
-                  "type": "object"
-                }
-              ],
-              "objectGroups": []
-            }
-          ],
-          "propertyDescriptors": [
-            {
-              "value": "3",
-              "type": "Number",
-              "label": "Maximum value",
-              "description": "",
-              "group": "",
-              "extraInformation": [],
-              "hidden": false,
-              "name": "MaxValue"
-            },
-            {
-              "value": "3",
-              "type": "Number",
-              "label": "Initial value",
-              "description": "",
-              "group": "",
-              "extraInformation": [],
-              "hidden": false,
-              "name": "InitialValue"
-            },
-            {
-              "value": "",
-              "type": "Number",
-              "label": "",
-              "description": "It's used to detect a change at hot reload.",
-              "group": "",
-              "extraInformation": [],
-              "hidden": true,
-              "name": "PreviousInitialValue"
-            },
-            {
-              "value": "24",
-              "type": "Number",
-              "label": "Unit width",
-              "description": "How much pixels to show for a value of 1.",
-              "group": "",
-              "extraInformation": [],
-              "hidden": false,
-              "name": "UnitWidth"
-            },
-            {
-              "value": "true",
-              "type": "Boolean",
-              "label": "Show the background",
-              "description": "",
-              "group": "",
-              "extraInformation": [
-                "Background"
-              ],
-              "hidden": false,
-              "name": "ShowBackground"
-            },
-            {
-              "value": "0",
-              "type": "Number",
-              "label": "Bar left margin",
-              "description": "",
-              "group": "",
-              "extraInformation": [
-                "FillBar",
-                "Bar"
-              ],
-              "hidden": false,
-              "name": "BarLeftPadding"
-            },
-            {
-              "value": "0",
-              "type": "Number",
-              "label": "Bar right margin",
-              "description": "",
-              "group": "",
-              "extraInformation": [
-                "FillBar",
-                "Bar"
-              ],
-              "hidden": false,
-              "name": "BarRightPadding"
-            },
-            {
-              "value": "Center",
-              "type": "String",
-              "label": "",
-              "description": "Only used by the scene editor.",
-              "group": "",
-              "extraInformation": [
-                "FillBar",
-                "Bar"
-              ],
-              "hidden": true,
-              "name": "BarVerticalAnchorOrigin"
-            },
-            {
-              "value": "Center",
-              "type": "String",
-              "label": "",
-              "description": "Only used by the scene editor.",
-              "group": "",
-              "extraInformation": [
-                "Background"
-              ],
-              "hidden": true,
-              "name": "BarVerticalAnchorTarget"
-            }
-          ],
-          "objects": [
-            {
-              "assetStoreId": "",
-              "height": 32,
-              "name": "FillBar",
-              "tags": "",
-              "texture": "",
-              "type": "TiledSpriteObject::TiledSprite",
-              "width": 32,
-              "variables": [],
-              "effects": [],
-              "behaviors": [
-                {
-                  "name": "ResourceBar",
-                  "type": "TiledUnitsBar::ResourceBar",
-                  "Value": 1,
-                  "MaxValue": 3,
-                  "PreviousValue": 0
-                }
-              ]
-            },
-            {
-              "assetStoreId": "",
-              "height": 32,
-              "name": "Bar",
-              "tags": "",
-              "texture": "",
-              "type": "TiledSpriteObject::TiledSprite",
-              "width": 32,
-              "variables": [],
-              "effects": [],
-              "behaviors": []
-            },
-            {
-              "assetStoreId": "",
-              "bottomMargin": 0,
-              "height": 32,
-              "leftMargin": 0,
-              "name": "Background",
-              "rightMargin": 0,
-              "tags": "",
-              "texture": "",
-              "tiled": true,
-              "topMargin": 0,
-              "type": "PanelSpriteObject::PanelSprite",
-              "width": 32,
-              "variables": [],
-              "effects": [],
-              "behaviors": []
-            }
-          ]
-        }
-      ]
-    },
     {
       "author": "",
       "category": "Game mechanic",
@@ -17946,16 +17816,8 @@
           "sharedPropertyDescriptors": []
         }
       ],
-      "behaviorsSharedData": [
-        {
-          "name": "TopDownMovement",
-          "type": "TopDownMovementBehavior::TopDownMovementBehavior"
-        }
-      ]
-    }
-  ],
-  "externalEvents": [],
-  "eventsFunctionsExtensions": [
+      "eventsBasedObjects": []
+    },
     {
       "author": "westboy, daliyoucefmedakram@gmail.com, @bouh",
       "category": "User interface",
